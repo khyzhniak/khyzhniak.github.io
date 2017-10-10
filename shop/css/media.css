@@ -1,0 +1,86 @@
+@media screen and (max-width: 1112px) {
+  .tabs__content .itemProductCart:last-child {
+    display: none; } }
+
+@media screen and (max-width: 1024px) {
+  .headerTopLine {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap; }
+    .headerTopLine .leftConetntHeaderTopLine {
+      width: 70%;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .headerTopLine .leftConetntHeaderTopLine .textColSilver a {
+        width: 150px; }
+    .headerTopLine .rightContentHeaderTopLine a {
+      margin-left: 5px; }
+  .headerContent .logoHeader a h1 {
+    font-size: 24px; }
+  .headerContent .logoHeader a span {
+    font-size: 12px; }
+  .topMenu .wrapper .navLine ul.nav .hot {
+    display: none; }
+  .topMenu .wrapper .navLine ul.nav .new {
+    display: none; }
+  .topMenu .wrapper .navLine ul.nav li a {
+    padding: 0 10px; }
+  .topMenu .wrapper .navLine ul.nav li .subMenu .menuItemSubMenu {
+    padding: 0; }
+    .topMenu .wrapper .navLine ul.nav li .subMenu .menuItemSubMenu li a {
+      font-size: 12px; }
+    .topMenu .wrapper .navLine ul.nav li .subMenu .menuItemSubMenu a {
+      padding: 0 10px; }
+  .topMenu .wrapper .navLine ul.soc a {
+    padding: 2px; }
+  .topMenu .wrapper .navLine .cartPopup {
+    z-index: 10;
+    width: 48%; }
+  .slideContent .bx-pager {
+    display: none; }
+  .slideContent .textContentSlide {
+    left: 25%;
+    padding-top: 20px; }
+    .slideContent .textContentSlide h1 {
+      font-size: 70px; }
+    .slideContent .textContentSlide span.borderR b {
+      font-size: 12px; }
+    .slideContent .textContentSlide span {
+      font-size: 40px; }
+    .slideContent .textContentSlide span.butt {
+      font-size: 12px; }
+  .blockSales .wrapper .topContentSales .titleTopContentSales p {
+    padding: 15px;
+    font-size: 16px; }
+  .blockSales .wrapper .topContentSales .popularProduct .itemPopularProd {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 10px; }
+    .blockSales .wrapper .topContentSales .popularProduct .itemPopularProd .imgViewCartPopProd {
+      border: none; }
+  .blockSales .wrapper .bottomContentSales .itemBottomContentSales .textPopularProduct span {
+    font-size: 14px; }
+  .blockSales .wrapper .bottomContentSales .itemBottomContentSales .textPopularProduct h2 {
+    font-size: 24px;
+    margin-bottom: 8px; }
+  .blockSales .wrapper .topContentSales .sales .sliderSales .topSliderSales .timerSliderSales .show {
+    padding: 30px 0 10px 10px; }
+  .blockSales .wrapper .topContentSales .dealsOfThe {
+    display: none; }
+  .blockSales .wrapper .topContentSales .popularProduct {
+    width: 40%; }
+  .itemProductCart .imgProductCart .quickView a:before {
+    display: none; }
+  .itemProductCart .imgProductCart .quickView a:after {
+    display: none; } }
