@@ -1,0 +1,25 @@
+@media screen and (max-width:1200px) {
+    .header form input#name {
+        margin-left: 13%;
+    }
+    .header a.langv img {
+    margin-right: 40px;
+}
+    .who_we .tiile_p h6.second_title {
+        margin: 13% 0 0 42%;
+    }
+    .who_we .tiile_p h6 {
+        font-size: 2em;
+        margin: 42% 0 0 42%;
+        text-transform: uppercase;
+    }
+    .wrap .sol .contant .line_right img {
+        margin-top: 40%;
+    }
+    .wrap .map .form_m {
+        width: 35%;
+    }
+    .wrap .map .form_m h4 {
+        padding: 2% 0;
+    }
+}

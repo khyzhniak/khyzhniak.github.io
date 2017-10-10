@@ -1,0 +1,50 @@
+@media screen and (max-width:762px) {
+    .header img.logo {
+        width: 100%;
+        height: auto;
+    }
+    .header .menu_right {
+        display: none;
+    }
+    .header form input {
+        float: none;
+        width: 80%;
+    }
+    .header form input#name {
+        margin-left: 0;
+    }
+    .header form input#phone {
+        float: none;
+        margin-bottom: 10%;
+    }
+    .header a.langv img {
+        margin-right: -100px;
+    }
+    .who_we .dn {
+        display: none;
+    }
+    .who_we .tiile_p h6.second_title {
+        margin: 13% 0 0 45%;
+    }
+    .who_we .tiile_p h6 {
+        font-size: 2em;
+        margin: 28% 0 0 45%;
+        text-transform: uppercase;
+    }
+    .who_we .practik img {
+        display: none;
+    }
+    .who_we span {
+        float: left;
+        margin-left: 20%;
+    }
+    .wrap .sol ul li.bg_li {
+        background-image: none;
+    }
+    .wrap .map .form_m {
+        display: none;
+    }
+    .wrap .form_back form select {
+        margin-bottom: 5%;
+    }
+}
