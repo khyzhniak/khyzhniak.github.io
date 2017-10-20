@@ -86,9 +86,6 @@ h3 {
     .nav li a:hover {
       color: #97379a; }
 
-#feedback {
-  display: none; }
-
 .popupForm {
   position: relative;
   display: -webkit-box;
@@ -99,7 +96,8 @@ h3 {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  display: none; }
 
 .wrapperPop {
   margin: 3%  auto;
