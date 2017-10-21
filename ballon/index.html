@@ -2,13 +2,15 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Gelium</title>
     <!--<link rel="stylesheet" href="css/libs.min.css">-->
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/fontAwesome.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/jqueryFormstyler.css">
     <link rel="stylesheet" href="css/jqueryFormstylerTheme.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 <form class="popupForm" id="popupForm" action="#">
@@ -20,7 +22,7 @@
         <input type="text" name="email" placeholder="Введите E-mail">
         <input type="file">
         <p class="smollP">Прикрепите файл в форматах cdr, ai, eps</p>
-        <button>Получить макет шара</button>
+        <button class="vibrate-1">Получить макет шара</button>
         <span>
         <input id="licens" type="checkbox">
         <label for="licens">Я согласен на обработку моих персональных данных согласно условиям политики конфиденциальности</label>
@@ -28,18 +30,18 @@
 </form>
 <div class="header">
     <div class="wrapper">
-        <img src="img/logo.png" alt="logo">
+        <img class="kenburns-top" src="img/logo.png" alt="logo">
         <ul class="nav">
-            <li><a href="#">Онлайн расчет</a></li>
-            <li><a href="#">Фото работ</a></li>
-            <li><a href="#">Дополнительно</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#onlinePay">Онлайн расчет</a></li>
+            <li><a href="#portfolio">Фото работ</a></li>
+            <li><a href="#add">Дополнительно</a></li>
+            <li><a href="#contact">Контакты</a></li>
         </ul>
         <ul class="contact">
             <li><a href="#">+7 (495) 664-22-92</a></li>
             <li><a href="#">sale@helium1.ru</a></li>
         </ul>
-        <button>заказать звонок</button>
+        <button class="vibrate-1">заказать звонок</button>
     </div>
 </div>
 <section class="print">
@@ -48,20 +50,28 @@
         <h1>печать на воздушных шарах</h1>
         <p>Минимальный тираж 100 штук!</p>
         <ul class="ourServices">
-            <li>• Более 20 цветов печати;</li>
-            <li>• Стандартные и светящиеся в темноте</li>
-            <li>• Односторонняя и двухсторонняя печать</li>
-            <li>• Накачивание гелием и воздухом</li>
-            <li>• Дополнительно: палочки, ленты, гелий, компрессоры и т.д.</li>
+            <li class="wow bounceInLeft" data-wow-delay="0.5s"> • Более 20 цветов печати;</li>
+            <li class="wow bounceInLeft" data-wow-delay="1s"> • Стандартные и светящиеся в темноте</li>
+            <li class="wow bounceInLeft" data-wow-delay="1.5s"> • Односторонняя и двухсторонняя печать</li>
+            <li class="wow bounceInLeft" data-wow-delay="2s"> • Накачивание гелием и воздухом</li>
+            <li class="wow bounceInLeft" data-wow-delay="2.5s"> • Дополнительно: палочки, ленты, гелий, компрессоры и
+                т.д.
+            </li>
         </ul>
         <span>
             Пришлите нам логотип Вашей организации или другое изображения для печати на шаре и мы бесплатно подготовим Вам макет, как будут выглядеть Ваши воздушные шары!
         </span>
-        <button>получить макет шара</button>
+        <button class="vibrate-1">получить макет шара</button>
         <ul class="condWork">
-            <li><i class="fa fa-check-circle" aria-hidden="true"></i> Доставка по Москве и области От 3 до 24 часов</li>
-            <li><i class="fa fa-check-circle" aria-hidden="true"></i> Достака по РФ до 7 дней</li>
-            <li><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Работаем с 2012 года</li>
+            <li class="wow bounceInLeft" data-wow-delay=".5s"><i class="fa fa-check-circle" aria-hidden="true"></i>
+                Доставка по Москве и области От 3 до 24 часов
+            </li>
+            <li class="wow bounceInLeft" data-wow-delay="1s"><i class="fa fa-check-circle" aria-hidden="true"></i>
+                Достака по РФ до 7 дней
+            </li>
+            <li class="wow bounceInLeft" data-wow-delay="1.5s"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                Работаем с 2012 года
+            </li>
         </ul>
         <img src="img/bg_secPrint.png" alt="">
     </div>
@@ -70,30 +80,30 @@
     <div class="wrapper">
         <h2>Где используются шары с печатью? </h2>
         <div class="imgText">
-            <div class="imgText_item"><img src="img/whereImg1.png" alt="">
+            <div class="imgText_item wow bounceInRight" data-wow-duration="0.5s"><img src="img/whereImg1.png" alt="">
                 <p>Открытие магазинов, офисов и прочих торговых площадей</p>
             </div>
-            <div class="imgText_item"><img src="img/whereImg2.png" alt="">
+            <div class="imgText_item wow bounceInLeft" data-wow-duration="1s"><img src="img/whereImg2.png" alt="">
                 <p>Промоакции</p>
             </div>
-            <div class="imgText_item"><img src="img/whereImg3.png" alt="">
+            <div class="imgText_item wow bounceInRight " data-wow-duration="1.5s"><img src="img/whereImg3.png" alt="">
                 <p>Корпоративные мероприятия и праздники</p>
             </div>
-            <div class="imgText_item"><img src="img/whereImg4.png" alt="">
+            <div class="imgText_item wow bounceInLeft" data-wow-duration="2s"><img src="img/whereImg4.png" alt="">
                 <p>Выставки и дигустации</p>
             </div>
 
         </div>
     </div>
 </section>
-<section class="onlinePay">
+<section class="onlinePay" id="onlinePay">
     <div class="wrapper">
         <h2>Онлайн расчет стоимости</h2>
         <div class="colorBallon">
             <div class="colorBallon_item">
                 <div class="imgBg">
                     <div class="round">
-                        <svg width="263.000000pt" height="351.000000pt">
+                        <svg width="200pt" height="280pt">
                             <g id="svg" transform="translate(0.000000,351.000000) scale(0.100000,-0.100000)"
                                fill="red" stroke="none">
                                 <path d="M1096 3474 c-262 -52 -517 -207 -699 -424 -181 -217 -302 -464 -343
@@ -114,40 +124,46 @@
                 <div class="editColor">
                     <p>Выберите цвет печати:</p>
                     <span class="editColorBallPrint editColorPrint">
-                        <input id="whiteColPrint" name="editColor1" type="radio">
-                        <label class="" for="whiteColPrint"></label>
-                        <input id="blackColPrint" name="editColor1" type="radio">
-                        <label class="" for="blackColPrint"></label>
-                        <input id="darkBlueColPrint" name="editColor1" type="radio">
-                        <label class="" for="darkBlueColPrint"></label>
-                        <input id="redColPrint" name="editColor1" type="radio">
-                        <label class="" for="redColPrint"></label>
-                        <input id="scarletRedColPrint" name="editColor1" type="radio">
-                        <label class="" for="scarletRedColPrint"></label>
-                        <input id="yellowColPrint" name="editColor1" type="radio">
-                        <label class="" for="yellowColPrint"></label>
-                        <input id="greenColPrint" name="editColor1" type="radio">
-                        <label class="" for="greenColPrint"></label>
-                        <input id="darkGreenColPrint" name="editColor1" type="radio">
-                        <label class="" for="darkGreenColPrint"></label>
-                        <input id="brownColPrint" name="editColor1" type="radio">
-                        <label class="" for="brownColPrint"></label>
-                        <input id="bordeauxColPrint" name="editColor1" type="radio">
-                        <label class="" for="bordeauxColPrint"></label>
-                        <input id="blueStandardColPrint" name="editColor1" type="radio">
-                        <label class="" for="blueStandardColPrint"></label>
-                        <input id="orangeColPrint" name="editColor1" type="radio">
-                        <label class="" for="orangeColPrint"></label>
-                        <input id="silverColPrint" name="editColor1" type="radio">
-                        <label class="" for="silverColPrint"></label>
-                        <input id="goldColPrint" name="editColor1" type="radio">
-                        <label class="" for="goldColPrint"></label>
-                        <input id="purpleColPrint" name="editColor1" type="radio">
-                        <label class="" for="purpleColPrint"></label>
-                        <input id="magentaColPrint" name="editColor1" type="radio">
-                        <label class="" for="magentaColPrint"></label>
-                        <input id="turquoiseColPrint" name="editColor1" type="radio">
-                        <label class="" for="turquoiseColPrint"></label>
+                        <input class="changeForm" value="Белый" id="whiteColPrint" name="editColor" type="radio">
+                        <label class="wow flip" data-wow-delay=".1s" for="whiteColPrint"></label>
+                        <input class="changeForm" value="Черный" id="blackColPrint" name="editColor" type="radio">
+                        <label class="wow flip" data-wow-delay=".2s" for="blackColPrint"></label>
+                        <input class="changeForm" value="Синий темный" id="darkBlueColPrint" name="editColor"
+                               type="radio">
+                        <label class="wow flip" data-wow-delay=".3s" for="darkBlueColPrint"></label>
+                        <input class="changeForm" value="Красный" id="redColPrint" name="editColor" type="radio">
+                        <label class="wow flip" data-wow-delay=".4s" for="redColPrint"></label>
+                        <input class="changeForm" value="Красный алый" id="scarletRedColPrint" name="editColor"
+                               type="radio">
+                        <label class="wow flip" data-wow-delay=".5s" for="scarletRedColPrint"></label>
+                        <input class="changeForm" value="Желтый" id="yellowColPrint" name="editColor" type="radio">
+                        <label class="wow flip" data-wow-delay=".6s" for="yellowColPrint"></label>
+                        <input class="changeForm" value="Зеленый" id="greenColPrint" name="editColor" type="radio">
+                        <label class="wow flip" data-wow-delay=".7s" for="greenColPrint"></label>
+                        <input class="changeForm" value="Зеленый темный" id="darkGreenColPrint" name="editColor"
+                               type="radio">
+                        <label class="wow flip" data-wow-delay=".8s" for="darkGreenColPrint"></label>
+                        <input class="changeForm" value="Коричневый" id="brownColPrint" name="editColor" type="radio">
+                        <label class="wow flip" data-wow-delay=".9s" for="brownColPrint"></label>
+                        <input class="changeForm" value="Бордовый" id="bordeauxColPrint" name="editColor" type="radio">
+                        <label class="wow flip" data-wow-delay="1s" for="bordeauxColPrint"></label>
+                        <input class="changeForm" value="Голубой стандарт" id="blueStandardColPrint" name="editColor"
+                               type="radio">
+                        <label class="wow flip" data-wow-delay="1.1s" for="blueStandardColPrint"></label>
+                        <input class="changeForm" value="Оранжевый" id="orangeColPrint" name="editColor" type="radio">
+                        <label class="wow flip" data-wow-delay="1.2s" for="orangeColPrint"></label>
+                        <input class="changeForm" value="Серебро металлик" id="silverColPrint" name="editColor"
+                               type="radio">
+                        <label class="wow flip" data-wow-delay="1.3s" for="silverColPrint"></label>
+                        <input class="changeForm" value="Золото металлик" id="goldColPrint" name="editColor"
+                               type="radio">
+                        <label class="wow flip" data-wow-delay="1.4s" for="goldColPrint"></label>
+                        <input class="changeForm" value="Фиолетовый" id="purpleColPrint" name="editColor" type="radio">
+                        <label class="wow flip" data-wow-delay="1.5s" for="purpleColPrint"></label>
+                        <input class="changeForm" value="Маджента" id="magentaColPrint" name="editColor" type="radio">
+                        <label class="wow flip" data-wow-delay="1.6s" for="magentaColPrint"></label>
+                        <input class="changeForm" value="Бирюза" id="turquoiseColPrint" name="editColor" type="radio">
+                        <label class="wow flip" data-wow-delay="1.7s" for="turquoiseColPrint"></label>
 
                     </span>
                 </div>
@@ -155,23 +171,23 @@
                     <p>Выберите цвет шаров:</p>
                     <span class="editColorBallPrint editColorBall">
                         <input value="red" id="redCol" class="edColInput" name="editColor1" type="radio">
-                        <label onclick="chColl()" class="" for="redCol"></label>
+                        <label onclick="chColl()" class="wow flip" data-wow-delay=".1s" for="redCol"></label>
                         <input value="orange" id="orangeCol" class="edColInput" name="editColor1" type="radio">
-                        <label onclick="chColl()" class="" for="orangeCol"></label>
+                        <label onclick="chColl()" class="wow flip" data-wow-delay=".2s" for="orangeCol"></label>
                         <input value="yellow" id="yellowCol" class="edColInput" name="editColor1" type="radio">
-                        <label onclick="chColl()" class="for-radio" for="yellowCol"></label>
+                        <label onclick="chColl()" class="wow flip" data-wow-delay=".31s" for="yellowCol"></label>
                         <input value="darkgreen" id="darkGreenCol" class="edColInput" name="editColor1" type="radio">
-                        <label onclick="chColl()" class="for-radio" for="darkGreenCol"></label>
+                        <label onclick="chColl()" class="wow flip" data-wow-delay=".4s" for="darkGreenCol"></label>
                         <input value="lightgreen" id="lightGreenCol" class="edColInput" name="editColor1" type="radio">
-                        <label onclick="chColl()" class="for-radio" for="lightGreenCol"></label>
+                        <label onclick="chColl()" class="wow flip" data-wow-delay=".5s" for="lightGreenCol"></label>
                         <input value="darkblue" id="darkBlueCol" class="edColInput" name="editColor1" type="radio">
-                        <label onclick="chColl()" class="for-radio" for="darkBlueCol"></label>
+                        <label onclick="chColl()" class="wow flip" data-wow-delay=".6s" for="darkBlueCol"></label>
                         <input value="lightblue" id="lightBlueCol" class="edColInput" name="editColor1" type="radio">
-                        <label onclick="chColl()" class="for-radio" for="lightBlueCol"></label>
+                        <label onclick="chColl()" class="wow flip" data-wow-delay=".7s" for="lightBlueCol"></label>
                         <input value="pink" id="pinkCol" class="edColInput" name="editColor1" type="radio">
-                        <label onclick="chColl()" class="for-radio" for="pinkCol"></label>
+                        <label onclick="chColl()" class="wow flip" data-wow-delay=".8s" for="pinkCol"></label>
                         <input value="white" id="whiteCol" class="edColInput" name="editColor1" type="radio">
-                        <label onclick="chColl()" class="for-radio" for="whiteCol"></label>
+                        <label onclick="chColl()" class="wow flip" data-wow-delay=".9s" for="whiteCol"></label>
                     </span>
                 </div>
             </div>
@@ -181,10 +197,10 @@
                 <p>Вид печати</p>
                 <span>
                     <label for="viewPrint1">
-                    <input id="viewPrint1" value="300" name="viewPrint" type="radio" checked><b>1+0 </b>&nbsp; (с одной стороны)
+                    <input id="viewPrint1" value="1" class="calc changeForm" name="viewPrint" type="radio" checked><b>1+0 </b>&nbsp; (с одной стороны)
                     </label>
                     <label for="viewPrint2">
-                    <input id="viewPrint2" value="400" name="viewPrint" type="radio"><b>1+1 </b>&nbsp; (с двух сторон)
+                    <input id="viewPrint2" class="calc changeForm" value="2" name="viewPrint" type="radio"><b>1+1 </b>&nbsp; (с двух сторон)
                     </label>
                 </span>
             </div>
@@ -192,33 +208,43 @@
                 <p>Накачка шаров</p>
                 <span>
                     <label for="gasBallon1">
-                    <input id="gasBallon1" value="300" name="gasBollon" type="radio" checked>Накачка гелием
+                    <input id="gasBallon1" value="27" class="calc changeForm " name="gasBollon" type="radio" checked>Накачка гелием
                     </label>
                     <label for="gasBallon2">
-                    <input id="gasBallon2" value="400" name="gasBollon" type="radio">Накачать воздухом
+                    <input id="gasBallon2" value="15" class="calc changeForm " name="gasBollon" type="radio">Накачать воздухом
                     </label>
                     <label for="gasBallon3">
-                    <input id="gasBallon3" value="400" name="gasBollon" type="radio">Без накачки
+                    <input id="gasBallon3" value="0" class="calc changeForm " name="gasBollon" type="radio">Без накачки
                     </label>
                 </span>
             </div>
             <div class="editServ_item">
                 <p>Тираж</p>
                 <span>
-                    <select>
-                    <option selected>300 штук</option>
-                    <option>400 штук</option>
-                    <option>500 штук</option>
-                    <option>600 штук</option>
+                    <select class="calc changeForm" id="tirag">
+                    <option value="100">100 штук</option>
+                    <option value="200">200 штук</option>
+                    <option value="300" selected>300 штук</option>
+                    <option value="400">400 штук</option>
+                    <option value="500">500 штук</option>
+                    <option value="1000">1000 штук</option>
+                    <option value="1500">1500 штук</option>
+                    <option value="2000">2000 штук</option>
+                    <option value="3000">3000 штук</option>
+                    <option value="4000">4000 штук</option>
+                    <option value="5000">5000 штук</option>
+                    <option value="7000">7000 штук</option>
+                    <option value="10000">10000 штук</option>
                 </select>
                 </span>
                 <p class="smoll">Доставка</p>
                 <span>
                     <label for="deliver1">
-                    <input id="deliver1" value="400" name="deliver" type="radio" checked>С доставкой (400 рублей)
+                    <input id="deliver1" class="calc changeForm" value="400" name="deliver" type="radio" checked>С доставкой (<b
+                            id="priceDeliv">0 рублей</b>)
                 </label>
                 <label for="deliver2">
-                    <input id="deliver2" value="400" name="deliver" type="radio">Без доставки
+                    <input id="deliver2" class="calc changeForm" value="0" name="deliver" type="radio">Без доставки
                 </label>
                 </span>
             </div>
@@ -226,18 +252,25 @@
         <div class="order">
             <div class="price">
                 <p>Ваша стоимость:</p>
-                <span>6580 руб.</span>
+                <span id="rezult">0 руб.</span>
             </div>
             <form action="#">
                <span>
+                   <input type="hidden" id="colorPrint">
+                   <input type="hidden" id="colorBall">
+                   <input type="hidden" id="viewPrint">
+                   <input type="hidden" id="gasForBall">
+                   <input type="hidden" id="quantBall">
+                   <input type="hidden" id="delivForm">
+                   <input type="hidden" id="sum">
                    <input type="text" placeholder="Введите номер телефона">
-                    <p><input id="licens" type="checkbox"><label for="licens">
-                        Я согласен на обработку моих персональных данных согласно условиям политики
-                    конфиденциальности
-                    </label></p>
+                    <p><input id="licens" type="checkbox">
+                        <label for="licens">Я согласен на обработку моих персональных данных согласно условиям политики
+                        конфиденциальности
+                        </label></p>
                </span>
                 <span>
-                    <button>оформить заказ</button>
+                    <button class="vibrate-1">оформить заказ</button>
                 </span>
             </form>
         </div>
@@ -245,133 +278,149 @@
 
 </section>
 <section class="special">
-    <h3>специальное предложение</h3>
-    <p>При заказе тиража <b>500 штук</b> одноцветной печати,</p>
+    <h3 class="wow flash" data-wow-offset="10" data-wow-iteration="50">специальное предложение</h3>
+    <p>При заказе тиража <b class="wow bounceIn" data-wow-offset="20" data-wow-iteration="50">500 штук</b> одноцветной
+        печати,</p>
     <span>скидка 12%!</span>
-    <button>заказать со скидкой</button>
+    <button class="vibrate-1">заказать со скидкой</button>
 </section>
 <section class="why">
     <div class="wrapper">
         <div class="why_item">
             <h2>Почему нужно обращаться к нам:</h2>
             <ul>
-                <li>• Мы делаем отгрузку и печать самостоятельно, поэтому можем предложить кротчайшие сроки 1-2 дня</li>
-                <li> • Шары не слипаются и не имеют запаха краски.</li>
-                <li> • Мы всегда кладем на некоторое количество шариков больше чем было в заказе, в запас</li>
-                <li> • Мы контролируем качество оттиска на каждом шаре, за счет использования полуавтоматического станка
+                <li class="wow bounceInLeft " data-wow-duration=".2s">• Мы делаем отгрузку и печать самостоятельно,
+                    поэтому
+                    можем предложить кротчайшие сроки 1-2 дня
                 </li>
-                <li> • Собственная служба доставки, благодаря этому доставка выполняется четко в срок.</li>
-                <li> • Предоставляем полный набор сопутствующих товаров от палочек для шаров до компрессоров и баллонов
+                <li class="wow bounceInLeft " data-wow-duration=".6s"> • Шары не слипаются и не имеют запаха краски.
+                </li>
+                <li class="wow bounceInLeft " data-wow-duration=1s"> • Мы всегда кладем на некоторое количество шариков
+                    больше чем было в заказе, в запас
+                </li>
+                <li class="wow bounceInLeft " data-wow-duration=".1.4s"> • Мы контролируем качество оттиска на каждом
+                    шаре, за
+                    счет использования полуавтоматического станка
+                </li>
+                <li class="wow bounceInLeft " data-wow-duration="1.8s"> • Собственная служба доставки, благодаря этому
+                    доставка
+                    выполняется четко в срок.
+                </li>
+                <li class="wow bounceInLeft " data-wow-duration="2.2s"> • Предоставляем полный набор сопутствующих
+                    товаров от
+                    палочек для шаров до компрессоров и баллонов
                     с
                     гелием
                 </li>
-                <li> • Вернем деньги, если качество печати не устроит</li>
+                <li class="wow bounceInLeft " data-wow-duration="2.6s"> • Вернем деньги, если качество печати не
+                    устроит
+                </li>
             </ul>
         </div>
         <div class="why_item"><img src="img/imgWhy.jpg" alt=""></div>
     </div>
 </section>
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
     <div class="wrapper">
         <h2>Посмотрите фотографии наших работ</h2>
         <div class="imgWrapper">
             <div class="portfolio_item">
-                <div class="portfolio_item--hover"><b class="">+</b></div>
+                <div class="portfolio_item--hover fade-in-fwd"><b class="">+</b></div>
                 <img class="image" src="img/portfolioImg1.jpg" alt=""></div>
             <div class="portfolio_item">
-                <div class="portfolio_item--hover"><b class="">+</b></div>
+                <div class="portfolio_item--hover fade-in-fwd"><b class="">+</b></div>
                 <img class="image" src="img/portfolioImg2.jpg" alt=""></div>
             <div class="portfolio_item">
-                <div class="portfolio_item--hover"><b class="">+</b></div>
+                <div class="portfolio_item--hover fade-in-fwd"><b class="">+</b></div>
                 <img class="image" src="img/portfolioImg3.jpg" alt=""></div>
             <div class="portfolio_item">
-                <div class="portfolio_item--hover"><b class="">+</b></div>
+                <div class="portfolio_item--hover fade-in-fwd"><b class="">+</b></div>
                 <img class="image" src="img/portfolioImg4.jpg" alt=""></div>
             <div class="portfolio_item">
-                <div class="portfolio_item--hover"><b class="">+</b></div>
+                <div class="portfolio_item--hover fade-in-fwd"><b class="">+</b></div>
                 <img class="image" src="img/portfolioImg5.jpg" alt=""></div>
             <div class="portfolio_item">
-                <div class="portfolio_item--hover"><b class="">+</b></div>
+                <div class="portfolio_item--hover fade-in-fwd"><b class="">+</b></div>
                 <img class="image" src="img/portfolioImg6.jpg" alt=""></div>
             <div class="portfolio_item_add portfolio_item">
-                <div class="portfolio_item--hover"><b class="">+</b></div>
+                <div class="portfolio_item--hover fade-in-fwd"><b class="">+</b></div>
                 <img class="image" src="img/portfolioImg7.jpg" alt=""></div>
             <div class="portfolio_item_add portfolio_item">
-                <div class="portfolio_item--hover"><b class="">+</b></div>
+                <div class="portfolio_item--hover fade-in-fwd"><b class="">+</b></div>
                 <img class="image" src="img/portfolioImg8.jpg" alt=""></div>
             <div class="portfolio_item_add portfolio_item">
-                <div class="portfolio_item--hover"><b class="">+</b></div>
+                <div class="portfolio_item--hover fade-in-fwd"><b class="">+</b></div>
                 <img class="image" src="img/portfolioImg9.jpg" alt=""></div>
             <div class="portfolio_item_add portfolio_item">
-                <div class="portfolio_item--hover"><b class="">+</b></div>
+                <div class="portfolio_item--hover fade-in-fwd"><b class="">+</b></div>
                 <img class="image" src="img/portfolioImg10.jpg" alt=""></div>
 
         </div>
         <span class="clickAdd"><p>Смотреть ещё работы </p>
-        <i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+        <i class="fa fa-sort-desc slide-bottom" aria-hidden="true"></i></span>
         <span class="clickClose">
-        <i class="fa fa-caret-up" aria-hidden="true"></i></span>
+        <i class="fa fa-caret-up slide-top" aria-hidden="true"></i></span>
 
     </div>
 </section>
-<section class="add">
+<section class="add" id="add">
     <div class="wrapper">
         <h2>Дополнительно можем предложить</h2>
         <div class="addWrapper">
-            <div class="add_item">
-                <img src="img/imgAdd1.jpg" alt="">
+            <div class="add_item wow flip" data-wow-delay="0.2s">
+                <img src="img/imgAdd1.jpg" class="" alt="">
                 <p>Палочки для шариков</p>
             </div>
-            <div class="add_item">
-                <img src="img/imgAdd2.jpg" alt="">
+            <div class="add_item wow flip" data-wow-delay="0.4s">
+                <img src="img/imgAdd2.jpg" class="" alt="">
                 <p>Ленты для шаров</p>
             </div>
-            <div class="add_item">
-                <img src="img/imgAdd3.jpg" alt="">
+            <div class="add_item wow flip" data-wow-delay="0.6s">
+                <img src="img/imgAdd3.jpg" class="" alt="">
                 <p>Гелий</p>
             </div>
-            <div class="add_item">
-                <img src="img/imgAdd4.jpg" alt="">
+            <div class="add_item wow flip" data-wow-delay="0.8s">
+                <img src="img/imgAdd4.jpg" class="" alt="">
                 <p>Компрессоры и насосы для накачки</p>
             </div>
-            <div class="add_item">
-                <img src="img/imgAdd5.jpg" alt="">
+            <div class="add_item wow flip" data-wow-delay=".2s">
+                <img src="img/imgAdd5.jpg" class="" alt="">
                 <p>Накачка шаров гелием</p>
             </div>
-            <div class="add_item">
-                <img src="img/imgAdd6.jpg" alt="">
+            <div class="add_item wow flip" data-wow-delay="0.4s">
+                <img src="img/imgAdd6.jpg" class="" alt="">
                 <p>Средство для обработки шаров hi-float (чтобы долго летали с гелием)</p>
             </div>
-            <div class="add_item">
-                <img src="img/imgAdd7.jpg" alt="">
+            <div class="add_item wow flip" data-wow-delay="0.6s">
+                <img src="img/imgAdd7.jpg" class="" alt="">
                 <p>Раздача шаров на мероприятии</p>
             </div>
-            <div class="add_item">
-                <img src="img/imgAdd8.jpg" alt="">
+            <div class="add_item wow flip" data-wow-delay="0.8s">
+                <img src="img/imgAdd8.jpg" class="" alt="">
                 <p>Доставка по Мск и РФ</p>
             </div>
         </div>
-        <button>заказать</button>
+        <button class="vibrate-1">заказать</button>
     </div>
 </section>
-<section class="contact">
+<section class="contact" id="contact">
     <div class="wrapper">
         <h2>Контакты</h2>
         <div class="contactWrapper">
             <div class="contact_item">
                 <span class="roundYellow">    <img src="img/contactIconPhone.png" alt=""></span>
                 <p>Телефон:</p>
-                <span>+7 (495) 664-22-92</span>
+                <span class="wow zoomIn" data-wow-delay="1s">+7 (495) 664-22-92</span>
             </div>
             <div class="contact_item">
                 <span class="roundYellow">    <img src="img/contactIconMail.png" alt=""></span>
                 <p>Эл. почта:</p>
-                <span>sale@helium1.ru</span>
+                <span class="wow zoomIn" data-wow-delay="1.5s">sale@helium1.ru</span>
             </div>
             <div class="contact_item">
                 <span class="roundYellow">     <img src="img/contactIconAdr.png" alt=""></span>
                 <p>Адрес:</p>
-                <span>г.Москва, Старая Басманная 20/13 стр.1</span>
+                <span class="wow zoomIn" data-wow-delay="2s">г.Москва, Старая Басманная 20/13 стр.1</span>
             </div>
         </div>
     </div>
@@ -392,7 +441,7 @@
             <li><a href="#">Дополнительно</a></li>
             <li><a href="#">Контакты</a></li>
         </ul>
-        <button>заказать звонок</button>
+        <button class="vibrate-1">заказать звонок</button>
     </div>
 </div>
 <div class="bottomLine">
@@ -409,18 +458,13 @@
         var item = document.getElementById("svg");
         item.setAttribute('fill', color);
     });
-    //    function chColl() {
-    //        element = $('label');
-    //        color = element.css('background-color');
-    //        alert(color);
-    //        var item = document.getElementById("svg");
-    //        item.setAttribute('fill', 'color');
-    ////        alert()
-    //    }
-    //    $(".edColInput");
+
 
 </script>
 <script src="js/common.js"></script>
-
+<script src="js/wow.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
