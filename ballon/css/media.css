@@ -1,0 +1,277 @@
+@media screen and (max-width: 992px) {
+  .wrapper {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    max-width: 960px;
+    margin: 0 20px; }
+  h2 {
+    margin-top: 40px; }
+  .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap; }
+  .print h1 {
+    font-size: 40px;
+    margin-top: 70px; }
+  .print .ourServices li {
+    font-size: 16px; }
+  .print .condWork {
+    margin-bottom: 50px; }
+  .print button {
+    margin-bottom: 10px; }
+  .whereUsed .imgText {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
+  .whereUsed .imgText_item {
+    width: 50%;
+    margin-bottom: 40px; }
+  .onlinePay p {
+    font-size: 16px;
+    line-height: 2; }
+  .onlinePay .editServ .editServ_item {
+    padding-top: 10px; }
+    .onlinePay .editServ .editServ_item span label {
+      font-size: 14px; }
+  .onlinePay .editServ .editServ_item:last-child span {
+    margin-bottom: 10px; }
+  .onlinePay .order .price {
+    padding-left: 5%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .onlinePay .order .price span {
+      font-size: 25px; }
+  .onlinePay .order form {
+    width: 95%; }
+    .onlinePay .order form span:first-child {
+      margin-left: 50px; }
+      .onlinePay .order form span:first-child input[type="text"] {
+        width: 250px; }
+  .onlinePay .colorBallon .editColorBallPrint {
+    margin-bottom: 20px; }
+  .onlinePay .colorBallon .colorBallon_item:last-child {
+    padding: 15px; }
+  .why h2 {
+    margin-bottom: 10px; }
+  .why .why_item li {
+    line-height: 1;
+    margin-bottom: 20px;
+    font-size: 16px; }
+  .why .why_item img {
+    width: 100%; }
+  .portfolio_item {
+    margin-right: 0; }
+  .add .addWrapper {
+    margin-bottom: 10px; }
+  .add .add_item {
+    margin-right: 0; }
+    .add .add_item p {
+      font-size: 16px; }
+  .add button {
+    margin-bottom: 50px; }
+  .contact .contactWrapper .contact_item .roundYellow {
+    width: 120px;
+    height: 120px; }
+    .contact .contactWrapper .contact_item .roundYellow img {
+      width: 50%; }
+  .contact .contactWrapper .contact_item p {
+    font-size: 16px; }
+  .contact .contactWrapper .contact_item span {
+    font-size: 18px; }
+  .footer .wrapper {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    padding-top: 30px; }
+    .footer .wrapper .contFooter {
+      margin-bottom: 50px; }
+  .popup_img {
+    width: 50%; } }
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 24px;
+    margin: 30px 0 20px; }
+  button {
+    font-size: 12px; }
+  img.kenburns-top {
+    width: 13%; }
+  .nav li {
+    margin-right: 5px; }
+    .nav li a {
+      font-size: 12px; }
+  .header a {
+    font-size: 12px; }
+  .print .wrapper h1 {
+    font-size: 30px;
+    margin: 30px 0 30px; }
+  .print .wrapper p {
+    margin-bottom: 20px; }
+  .print .wrapper span {
+    width: 100%;
+    margin-bottom: 20px; }
+  .whereUsed .imgText_item img {
+    width: 90%; }
+  .whereUsed .imgText_item p {
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 1; }
+  .onlinePay .colorBallon {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap; }
+    .onlinePay .colorBallon .colorBallon_item {
+      width: 90%; }
+    .onlinePay .colorBallon .colorBallon_item:last-child {
+      padding-right: 30px; }
+    .onlinePay .colorBallon .colorBallon_item:first-child {
+      margin-right: 0; }
+    .onlinePay .colorBallon .imgBg {
+      margin-bottom: 20px; }
+      .onlinePay .colorBallon .imgBg svg {
+        margin: 10px; }
+  .onlinePay .colorBallon .editColor p {
+    font-size: 18px;
+    margin-bottom: 0; }
+  .onlinePay .colorBallon .editColorBallPrint label {
+    width: 40px;
+    height: 40px; }
+  .onlinePay .editServ {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap; }
+    .onlinePay .editServ .editServ_item {
+      width: 100%; }
+      .onlinePay .editServ .editServ_item p {
+        margin-bottom: 0; }
+  .onlinePay .order {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    margin-bottom: 0; }
+    .onlinePay .order form span:first-child {
+      margin-left: 10px; }
+      .onlinePay .order form span:first-child input[type="text"] {
+        width: 90%; }
+    .onlinePay .order .price {
+      width: 100%;
+      padding-left: 0;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+  .special h3 {
+    font-size: 28px;
+    margin: 20px 0 10px; }
+  .special p {
+    font-size: 18px; }
+  .special button {
+    margin: 30px 0; }
+  .why .why_item {
+    width: 100%; }
+  .why .why_item:last-child {
+    display: none; }
+  .portfolio .portfolio_item {
+    width: 40%;
+    margin-right: 0; }
+  .portfolio .imgWrapper {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+  .add .add_item {
+    margin-bottom: 0; }
+    .add .add_item p {
+      font-size: 12px; }
+    .add .add_item img {
+      margin-bottom: 5px; }
+  .contact .contactWrapper .contact_item .roundYellow {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px; }
+  .contact .contactWrapper .contact_item p {
+    font-size: 14px; }
+  .contact .contactWrapper .contact_item span {
+    margin-bottom: 10px;
+    font-size: 14px; } }
+
+@media screen and (max-width: 544px) {
+  .wrapper {
+    max-width: 90%;
+    margin: 0 5%; }
+  h1 {
+    font-size: 20px; }
+  h2 {
+    font-size: 20px; }
+  .header {
+    height: 100%; }
+    .header .wrapper {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap; }
+    .header button {
+      margin-bottom: 10px; }
+  .print p {
+    font-size: 18px; }
+  .print .wrapper h1 {
+    font-size: 20px;
+    margin: 30px 0 10px; }
+  .print .wrapper span {
+    font-size: 14px; }
+  .print .wrapper .ourServices {
+    margin-bottom: 0; }
+    .print .wrapper .ourServices li {
+      font-size: 14px; }
+  .whereUsed .imgText_item {
+    margin-bottom: 10px; }
+  .onlinePay .order form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+    .onlinePay .order form span:first-child {
+      width: 80%; }
+    .onlinePay .order form span:last-child {
+      width: 80%; }
+    .onlinePay .order form span {
+      padding: 0; }
+  .onlinePay .colorBallon .colorBallon_item:first-child {
+    display: none; }
+  .special h3 {
+    font-size: 24px; }
+  .special p {
+    font-size: 15px; }
+  .special button {
+    margin: 5px; }
+  .why .why_item li {
+    font-size: 14px; }
+  .add .add_item p {
+    font-size: 12px;
+    overflow: hidden;
+    width: 100%;
+    height: 54px;
+    text-overflow: ellipsis; }
+  .bottomLine .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap; } }
