@@ -659,7 +659,7 @@ h3 {
           -ms-flex-flow: column nowrap;
               flex-flow: column nowrap;
       width: 20%; }
-      .onlinePay .order .price span {
+      .onlinePay .order .price #rezult {
         font-size: 40px;
         color: #97379a;
         font-weight: bold; }
