@@ -66,6 +66,11 @@
           border-radius: 50%;
   background: #FFA123; }
 
+.jq-radio.checked + label {
+  width: 48px !important;
+  height: 48px !important;
+  border: 6px solid #ffa123; }
+
 .jq-file {
   height: 37px;
   width: 270px;
