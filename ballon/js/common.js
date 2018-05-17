@@ -225,7 +225,7 @@ $('.editColorPrint  input').on('change', function () {
     };
     for (var key in xx) {
         key = colorT;
-        addrFull = ("./img/" + xx[key] + ".png");
+        addrFull = ("https://khyzhniak.github.io/ballon/img/" + xx[key] + ".png");
     }
     $("#colorTextSvg").attr("src", addrFull);
 
