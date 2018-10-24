@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<div class="wrap">
+    <div id="div" class="wrap_kub">
+        <div id="container" class="container"></div>
+    </div>
+</div>
+
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        border: 1px solid #00ADE8;
+        padding: 1px;
+        margin: 50px auto;
+        position: relative;
+    }
+
+    .container:hover .removeRow {
+        display: block;
+    }
+
+    .container:hover .removeCol {
+        display: block;
+    }
+
+    .wrap {
+        width: 100%;
+        height: 600px;
+    }
+
+    .wrap_kub {
+        position: relative;
+        margin: auto auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .button {
+        cursor: pointer;
+        border: none;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        color: #ffffff;
+        font-size: 18px;
+        transition: .4s ease-out;
+    }
+
+    .button:hover {
+        opacity: .7;
+    }
+
+    .add {
+        background-color: #ffa900;
+    }
+
+    .remove {
+        display: none;
+        background-color: #D50000;
+
+    }
+
+    .addRow {
+        right: -42px;
+    }
+
+    .addCol {
+        bottom: -42px;
+    }
+
+    .removeRow {
+        left: -42px;
+    }
+
+    .removeCol {
+        top: -42px;
+    }
+
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+    var quantityX = 4;
+    var quantityY = 4;
+    var myMatrix = matrixArray(quantityX, quantityY);
+    var container = document.getElementById('container');
+
+    function addRow() {
+        ++quantityX;
+        var myMatrix = matrixArray(quantityX, quantityY);
+        var container = document.getElementById('container');
+    }
+
+    function addCol() {
+        ++quantityY;
+        var myMatrix = matrixArray(quantityX, quantityY);
+    }
+
+    function removeRow() {
+        --quantityX;
+        var myMatrix = matrixArray(quantityX, quantityY);
+    }
+
+    function removeCol() {
+        --quantityY;
+        var myMatrix = matrixArray(quantityX, quantityY);
+    }
+
+    function matrixArray(rows, columns) {
+        var buttonAddRow = '<button id="addRow" class="button add addRow" onclick="addRow()">+</button>';
+        var buttonAddCol = '<button id="addCol" class="button add addCol" onclick="addCol()">+</button>';
+        var buttonRemoveRow = '<button id="removeRow" class="button remove removeRow" onclick="removeRow()">-</button>';
+        var buttonRemoveCol = '<button id="removeCol" class="button remove removeCol" onclick="removeCol()">-</button>';
+        var x = '<svg class="svg" onmouseover="position(this)" onmouseout="position(this)"  width="41" height="41"><rect  x="0.5" y="0.5" width="40" height="40" fill="#00ADE8"/></svg>'
+        var arr = new Array();
+        for (var i = 0; i < rows; i++) {
+            arr[i] = new Array();
+            for (var j = 0; j < columns; j++) {
+                arr[i][j] = x;
+            }
+        }
+        var container = document.getElementById('container');
+        var x = arr.join('');
+        x = x.replace(/,/g, "");
+        container.innerHTML = x;
+        $('#container').append(buttonAddRow + buttonAddCol + buttonRemoveRow + buttonRemoveCol);
+        var container = document.getElementById('container');
+        container.style.gridTemplateColumns = 'repeat(' + rows + ', 1fr)';
+        container.style.gridTemplateRows = 'repeat(' + columns + ', 1fr)';
+        return quantityX, quantityY;
+        return arr;
+    }
+
+    function position(el) {
+        var br = el.getBoundingClientRect()
+        var removeRow = document.getElementById('removeRow');
+        var removeCol = document.getElementById('removeCol');
+        var container = document.getElementById('container');
+        var bodyRect = document.body.getBoundingClientRect(),
+            containerRect = container.getBoundingClientRect(),
+            elemRect = el.getBoundingClientRect(),
+            offsetX = elemRect.top - containerRect.top,
+            offsetY = elemRect.left - containerRect.left;
+        removeRow.style.top = (offsetX - .5) + 'px';
+        removeCol.style.left = (offsetY - .5) + 'px';
+    }
+</script>
+</body>
+</html>
