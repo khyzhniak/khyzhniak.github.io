@@ -93,7 +93,7 @@ hr {
   width: 600px;
   left: 59px;
   z-index: -2;
-  background-image: url(../img/patt.png);
+  background-image: url(../lendingBase/img/patt.png);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 600px; }
@@ -105,7 +105,7 @@ hr {
   width: 600px;
   right: -100px;
   z-index: -2;
-  background-image: url(../img/patt.png);
+  background-image: url(../lendingBase/img/patt.png);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 600px; }
@@ -154,7 +154,7 @@ hr {
 
 .unit_1 {
   position: relative;
-  background-image: url("../img/bg_1.jpg");
+  background-image: url("../lendingBase/img/bg_1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -205,7 +205,7 @@ hr {
             transform: scale(1) rotateZ(360deg); } }
 
 .unit_2 {
-  background-image: url("../img/bg_2.jpg");
+  background-image: url("../lendingBase/img/bg_2.jpg");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 40%;
@@ -297,7 +297,7 @@ hr {
 
 .spriteUnit23, .spriteUnit24, .spriteUnit25, .spriteUnit22, .spriteUnit21 {
   display: block;
-  background: url("../img/spriteUnit2.png") no-repeat;
+  background: url("../lendingBase/img/spriteUnit2.png") no-repeat;
   overflow: hidden;
   text-indent: -9999px;
   text-align: left; }
@@ -379,7 +379,7 @@ hr {
 
 .unit_3 {
   overflow: hidden;
-  background-image: url("../img/bg_3.jpg");
+  background-image: url("../lendingBase/img/bg_3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -488,7 +488,7 @@ hr {
 
 .spriteUnit33, .spriteUnit35, .spriteUnit32, .spriteUnit34, .spriteUnit31 {
   display: inline-block;
-  background: url("../img/spriteUnit3.png") no-repeat;
+  background: url("../lendingBase/img/spriteUnit3.png") no-repeat;
   overflow: hidden;
   text-indent: -9999px;
   position: relative;
@@ -581,7 +581,7 @@ hr {
   z-index: -3; }
 
 .unit_4 {
-  background-image: url(../img/bg_2.jpg);
+  background-image: url(../lendingBase/img/bg_2.jpg);
   background-repeat: no-repeat;
   background-position: 30% top;
   background-size: 50%; }
@@ -651,7 +651,7 @@ hr {
   display: block;
   position: relative;
   height: 215px;
-  background-image: url("../img/blank.png");
+  background-image: url("../lendingBase/img/blank.png");
   background-repeat: no-repeat;
   background-position: center top; }
 
@@ -666,7 +666,7 @@ hr {
 .spriteUnit47, .spriteUnit44, .spriteUnit49, .spriteUnit48, .spriteUnit42,
 .spriteUnit43, .spriteUnit45, .spriteUnit46, .spriteUnit41 {
   display: inline-block;
-  background: url("../img/spriteUnit4.png") no-repeat;
+  background: url("../lendingBase/img/spriteUnit4.png") no-repeat;
   overflow: hidden;
   text-indent: -9999px;
   position: absolute;
@@ -736,7 +736,7 @@ hr {
   display: block;
   margin: 0 10%;
   z-index: -1;
-  background-image: url("../img/quadrate.png");
+  background-image: url("../lendingBase/img/quadrate.png");
   background-repeat: repeat-x;
   background-position: center; }
 
@@ -865,7 +865,7 @@ hr {
 
 .unit51, .unit52, .unit53, .unit54 {
   display: inline-block;
-  background: url("../img/spriteUnit5.png") no-repeat;
+  background: url("../lendingBase/img/spriteUnit5.png") no-repeat;
   overflow: hidden;
   text-indent: -9999px;
   text-align: left; }
@@ -957,7 +957,7 @@ hr {
   position: relative; }
 
 .webAnalitic {
-  background: url(../img/patt.jpg) no-repeat 30% top;
+  background: url(../lendingBase/img/patt.jpg) no-repeat 30% top;
   position: relative;
   z-index: 1;
   padding: 100px 0 0; }
@@ -971,7 +971,7 @@ hr {
   overflow: hidden;
   z-index: -1;
   width: 100px;
-  background: url(../img/point.png) repeat-y center top;
+  background: url(../lendingBase/img/point.png) repeat-y center top;
   background-size: 4%; }
 
 .webAnalitic1:before {
@@ -983,7 +983,7 @@ hr {
   overflow: hidden;
   z-index: -1;
   width: 100px;
-  background: url(../img/point.png) repeat-y center top;
+  background: url(../lendingBase/img/point.png) repeat-y center top;
   background-size: 4%; }
 
 .contColum2:before {
@@ -994,7 +994,7 @@ hr {
   overflow: hidden;
   z-index: 1;
   width: 601px;
-  background: url(../img/contColum2.png) no-repeat;
+  background: url(../lendingBase/img/contColum2.png) no-repeat;
   background-position: 38% 2%;
   background-size: 80%; }
 
@@ -1006,7 +1006,7 @@ hr {
   overflow: hidden;
   z-index: 1;
   width: 601px;
-  background: url(../img/contColum3.png) no-repeat;
+  background: url(../lendingBase/img/contColum3.png) no-repeat;
   background-position: 38% 2%;
   background-size: 80%; }
 
@@ -1019,7 +1019,7 @@ hr {
   overflow: hidden;
   z-index: 1;
   width: 601px;
-  background: url(../img/contColum4.png) no-repeat;
+  background: url(../lendingBase/img/contColum4.png) no-repeat;
   background-position: 38% 2%;
   background-size: 50%; }
 
@@ -1052,7 +1052,7 @@ hr {
 
 .contColum1 {
   padding-top: 100px;
-  background-image: url(../img/bgcontColumBig.png);
+  background-image: url(../lendingBase/img/bgcontColumBig.png);
   background-repeat: no-repeat;
   background-position: 38% 2%;
   background-size: 19% 20%; }
@@ -1104,7 +1104,7 @@ hr {
   left: 0;
   content: " ";
   z-index: -1;
-  background-image: url(../img/patt.jpg);
+  background-image: url(../lendingBase/img/patt.jpg);
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 100%; }
@@ -1117,7 +1117,7 @@ hr {
   right: 0;
   content: " ";
   z-index: -1;
-  background-image: url(../img/patt.jpg);
+  background-image: url(../lendingBase/img/patt.jpg);
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 100%; }
@@ -1140,7 +1140,7 @@ hr {
 .unit61, .unit62, .unit63, .unit64, .unit65,
 .unit66, .unit67, .unit68 {
   display: inline-block;
-  background: url("../img/spriteUnit6.png") no-repeat;
+  background: url("../lendingBase/img/spriteUnit6.png") no-repeat;
   overflow: hidden;
   text-indent: -9999px;
   text-align: left; }
@@ -1213,7 +1213,7 @@ hr {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(../img/bg_slide.png);
+  background-image: url(../lendingBase/img/bg_slide.png);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-box-align: center;
@@ -1248,7 +1248,7 @@ hr {
   text-align: center; }
 
 .unit_7 {
-  background: url(../img/patt.jpg) no-repeat 30% top;
+  background: url(../lendingBase/img/patt.jpg) no-repeat 30% top;
   position: relative;
   z-index: 1;
   display: none; }
@@ -1281,7 +1281,7 @@ hr {
     margin-bottom: 10px; }
 
 .marcet {
-  background: url("../img/marcet_bg_top.png") no-repeat 15% top, url("../img/marcet_bg_bot.png") no-repeat 15% bottom;
+  background: url("../lendingBase/img/marcet_bg_top.png") no-repeat 15% top, url("../lendingBase/img/marcet_bg_bot.png") no-repeat 15% bottom;
   background-repeat: no-repeat;
   padding: 50px 0; }
 
@@ -1293,7 +1293,7 @@ hr {
 
 .marcet li {
   position: relative;
-  background-image: url("../img/point.png");
+  background-image: url("../lendingBase/img/point.png");
   background-repeat: repeat-y;
   background-position: 7% center;
   padding-bottom: 30px;
@@ -1317,7 +1317,7 @@ hr {
 
 .unit71, .unit72, .unit73, .unit75, .unit74 {
   display: inline-block;
-  background: url("../img/spriteUnit7.png") no-repeat;
+  background: url("../lendingBase/img/spriteUnit7.png") no-repeat;
   overflow: hidden;
   text-indent: -9999px;
   text-align: left; }
@@ -1401,7 +1401,7 @@ hr {
 
 .info2, .info1 {
   display: inline-block;
-  background: url("../img/spriteInfo.png") no-repeat;
+  background: url("../lendingBase/img/spriteInfo.png") no-repeat;
   overflow: hidden;
   text-indent: -9999px;
   text-align: left; }
