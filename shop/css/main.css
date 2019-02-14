@@ -48,8 +48,8 @@ a{text-decoration:none;}
 .itemProductCart .panelProductCart .toFavorit:hover:before{opacity:1;top:-34px;}
 .itemProductCart .panelProductCart .toFavorit:hover:after{opacity:1;top:-10px;}
 .ratingProductCart{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:72px;}
-.ratingProductCart .rating{background:url("../img/raitingEpty.png") no-repeat;width:150px;height:12px;}
-.ratingProductCart .rating div{background:url("../img/raitingFull.png") no-repeat;width:20%;height:100%;}
+.ratingProductCart .rating{background:url("../shop/img/raitingEpty.png") no-repeat;width:150px;height:12px;}
+.ratingProductCart .rating div{background:url("../shop/img/raitingFull.png") no-repeat;width:20%;height:100%;}
 .bx-controls-direction{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;width:100%;font-size:40px;color:#ffffff;bottom:50%;}
 .bx-controls-direction .bx-prev{font-family:FontAwesome;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-right:4px;width:36px;height:36px;position:absolute;left:0;bottom:220px;background-color:#0da9f2;color:#ffffff;}
 .bx-controls-direction .bx-prev:before{content:"\f104";}
