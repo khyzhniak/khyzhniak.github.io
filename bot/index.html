@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>bot</title>
+    <link rel="shortcut icon" href="img/favicon_alfa.png" type="image/png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slickTheme.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css"/>
+</head>
+<body>
+<header class="header big-wr">
+    <div class="wr">
+        <div class="header_content">
+            <a class="logo" href="#">
+                <p style="font-size: 40px;font-weight: bold;">logoCompany</p>
+                <nav class="nav">
+                    <ul class="menu_header">
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                    <a onclick="sendText(this)" data-send="Кнопка в шапке сайта" class="btn_border loadPopup btnTariff"
+                            href="#feedback">связаться с нами</a>
+                </nav>
+        </div>
+        <div class="unit_first">
+            <h1 class="title">Разрабатываем чат-ботов для бизнеса</h1>
+            <p class="subTitle">TEXT | TEXT | TEXT TEXT TEXT</p>
+            <p>Для сайтов и мессенджеров: </p>
+            <ul class="soc">
+                <li><img src="img/icon_tg.png" alt=""><span>Telegram</span></li>
+                <li><img src="img/icon_viber.png" alt=""><span>Viber</span></li>
+                <li><img src="img/icon_vk.png" alt=""><span>Vkontakte</span></li>
+                <li><img src="img/icon_scype.png" alt=""><span>Skype</span></li>
+                <li><img src="img/icon_fb.png" alt=""><span>Facebook</span></li>
+                <li><img src="img/icon_slac.png" alt=""><span>Slack</span></li>
+            </ul>
+            <ul class="descriptions">
+                <li><span>Готовые решения или разработка под ключ.</span></li>
+                <li><span>Запуск в течении 3 дней.</span></li>
+            </ul>
+            <a onclick="sendText(this)" data-send="Кнопка на первом экране" class="btn loadPopup btnTariff btnTariff"
+                    href="#feedback">Оставить заявку</a>
+        </div>
+    </div>
+</header>
+<section class="unit_createBot unit big-wr">
+    <div class="wr">
+        <section id="bot1" class="items">
+            <div class="itemsLeft">
+                <img src="img/item_img1.png" alt="">
+            </div>
+            <div class="itemsRight">
+                <h2 class="title">Что такое чат-бот?</h2>
+                <p class="itemsTextDescr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores cumque dolore eligendi esse est excepturi explicabo maiores similique vitae?</p>
+                <ul class="itemsUlDescr">
+                    <li><span>Готовые решения или разработка под ключ.</span></li>
+                    <li><span>Запуск в течении 3 дней.</span></li>
+                </ul>
+                <a onclick="sendText(this)" data-send="Кнопка Что такое чат-бот?"
+                        class="btn loadPopup btnTariff btnTariff" href="#feedback">Оставить заявку</a>
+            </div>
+        </section>
+        <section id="bot2" class="items">
+            <div class="itemsLeft">
+                <img src="img/item_img2.png" alt="">
+            </div>
+            <div class="itemsRight">
+                <h2 class="title">Чат-боты для заказов <br>товаров или услуг</h2>
+                <p class="itemsTextDescr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis, delectus dicta dolores eius facere magnam magni maxime molestias quod.</p>
+                <ul class="itemsUlDescr">
+                    <li><span>Готовые решения или разработка под ключ.</span></li>
+                    <li><span>Запуск в течении 3 дней.</span></li>
+                </ul>
+                <a onclick="sendText(this)" data-send="Чат-боты для заказов  товаров или услуг"
+                        class="btn loadPopup btnTariff" href="#feedback">Оставить заявку</a>
+            </div>
+        </section>
+        <section id="bot3" class="items">
+            <div class="itemsLeft">
+                <img src="img/item_img3.png" alt="">
+            </div>
+            <div class="itemsRight">
+                <h2 class="title">Чат-боты для записи <br>на прием</h2>
+                <p class="itemsTextDescr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum minus nisi nostrum tempora vitae voluptatum! Consequuntur harum odit qui totam!</p>
+                <ul class="itemsUlDescr">
+                    <li><span>Готовые решения или разработка под ключ.</span></li>
+                    <li><span>Запуск в течении 3 дней.</span></li>
+                </ul>
+                <a onclick="sendText(this)" data-send="Чат-боты для записи на прием"
+                        class="btn loadPopup btnTariff" href="#feedback">Оставить заявку</a>
+            </div>
+        </section>
+        <section id="bot4" class="items hideContent toggle">
+            <div class="itemsLeft">
+                <img src="img/item_img4.png" alt="">
+            </div>
+            <div class="itemsRight">
+                <h2 class="title">Чат-боты для <br>бронирования</h2>
+                <p class="itemsTextDescr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus dolorum ea necessitatibus temporibus. At expedita laborum officia perspiciatis porro suscipit.</p>
+                <ul class="itemsUlDescr">
+                    <li><span>Готовые решения или разработка под ключ.</span></li>
+                    <li><span>Запуск в течении 3 дней.</span></li>
+                </ul>
+                <a onclick="sendText(this)" data-send="Чат-боты для бронирования" class="btn loadPopup btnTariff"
+                        href="#feedback">Оставить заявку</a>
+            </div>
+        </section>
+        <section id="bot5" class="items hideContent toggle">
+            <div class="itemsLeft">
+                <img src="img/item_img5.png" alt="">
+            </div>
+            <div class="itemsRight">
+                <h2 class="title">Чат-боты для рассылок <br>и оповещений</h2>
+                <p class="itemsTextDescr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam aut blanditiis cumque fugiat laudantium magnam molestiae similique, sint soluta!</p>
+                <ul class="itemsUlDescr">
+                    <li><span>Готовые решения или разработка под ключ.</span></li>
+                    <li><span>Запуск в течении 3 дней.</span></li>
+                </ul>
+                <a onclick="sendText(this)" data-send="Чат-боты для рассылок и оповещений"
+                        class="btn loadPopup btnTariff"
+                        href="#feedback">Оставить заявку</a>
+            </div>
+        </section>
+        <section id="bot6" class="items hideContent toggle">
+            <div class="itemsLeft">
+                <img src="img/item_img6.png" alt="">
+            </div>
+            <div class="itemsRight">
+                <h2 class="title">Чат-боты для <br>автоматизации служб <br>поддержки </h2>
+                <p class="itemsTextDescr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum impedit in mollitia non officia perferendis quam quidem quo vel?</p>
+                <ul class="itemsUlDescr">
+                    <li><span>Готовые решения или разработка под ключ.</span></li>
+                    <li><span>Запуск в течении 3 дней.</span></li>
+                </ul>
+                <a onclick="sendText(this)" data-send="Чат-боты для автоматизации служб поддержки "
+                        class="btn loadPopup btnTariff"
+                        href="#feedback">Оставить заявку</a>
+            </div>
+        </section>
+        <section id="bot7" class="items hideContent toggle">
+            <div class="itemsLeft">
+                <img src="img/item_img7.png" alt="">
+            </div>
+            <div class="itemsRight">
+                <h2 class="title">Чат-боты для <br>автоматизации <br>HR-процессов</h2>
+                <p class="itemsTextDescr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusantium beatae cupiditate excepturi explicabo incidunt nihil perspiciatis possimus repellat!</p>
+                <ul class="itemsUlDescr">
+                    <li><span>Готовые решения или разработка под ключ.</span></li>
+                    <li><span>Запуск в течении 3 дней.</span></li>
+                </ul>
+                <a onclick="sendText(this)" data-send="Чат-боты для автоматизации HR-процессов"
+                        class="btn loadPopup btnTariff"
+                        href="#feedback">Оставить заявку</a>
+            </div>
+        </section>
+        <section id="bot8" class="items hideContent toggle">
+            <div class="itemsLeft">
+                <img src="img/item_img8.png" alt="">
+            </div>
+            <div class="itemsRight">
+                <h2 class="title">Чат-боты для опросов</h2>
+                <p class="itemsTextDescr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eius eveniet natus nulla optio perspiciatis tempore! Ad debitis deleniti rem!</p>
+                <ul class="itemsUlDescr">
+                    <li><span>Готовые решения или разработка под ключ.</span></li>
+                    <li><span>Запуск в течении 3 дней.</span></li>
+                </ul>
+                <a onclick="sendText(this)" data-send="Чат-боты для опросов" class="btn loadPopup btnTariff"
+                        href="#feedback">Оставить заявку</a>
+            </div>
+        </section>
+        <section id="bot9" class="items hideContent toggle">
+            <div class="itemsLeft">
+                <img src="img/item_img9.png" alt="">
+            </div>
+            <div class="itemsRight">
+                <h2 class="title">Голосовые боты</h2>
+                <p class="itemsTextDescr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, dolore est harum id laboriosam molestiae nemo numquam odit ut voluptate!</p>
+                <ul class="itemsUlDescr">
+                    <li><span>Готовые решения или разработка под ключ.</span></li>
+                    <li><span>Запуск в течении 3 дней.</span></li>
+                </ul>
+                <a onclick="sendText(this)" data-send="Голосовые боты" class="btn loadPopup btnTariff"
+                        href="#feedback">Оставить заявку</a>
+            </div>
+        </section>
+        <div class="showHideWr">
+            <button class="btn showHide btnTariff" style="outline:none">Больше направлений</button>
+        </div>
+        <h2 class="title">Как мы создаем чат-боты</h2>
+        <p class="subTitle">Наш процесс работы над проектами</p>
+        <div class="processWr">
+            <div class="itemCreate">
+                <img src="img/icon_create1.jpg" alt="">
+                <p class="itemCreateTitle">Консалтинг</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quaerat.</p>
+            </div>
+            <div class="itemCreate">
+                <img src="img/icon_create2.jpg" alt="">
+                <p class="itemCreateTitle">Разработка</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, libero.</p>
+            </div>
+            <div class="itemCreate">
+                <img src="img/icon_create3.jpg" alt="">
+                <p class="itemCreateTitle">Внедрение</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, ullam?</p>
+            </div>
+            <div class="itemCreate">
+                <img src="img/icon_create4.jpg" alt="">
+                <p class="itemCreateTitle">Поддержка</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, praesentium?</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="unit_ourProject unit big-wr">
+    <div class="wr">
+        <h2 id="portfolio" class="title">Реализованные проекты</h2>
+        <p class="subTitle">Наш процесс работы над проектами</p>
+        <div class="sl_ourProject">
+            <section class="item_ourProject">
+                <div class="item_ourProjectWr">
+                    <div class="leftItemOurProject">
+                        <img src="img/iphone-for-gif.png" alt="">
+                        <video autoplay="autoplay" loop muted>
+                            <source src="img/video-2.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                            <source src="img/video-2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                            <source src="img/video-2.webm" type='video/webm; codecs="vp8, vorbis"'>
+                        </video>
+                    </div>
+                    <div class="rightItemOurProject">
+                        <h2 class="title">VIBER Чат-бот для <br>компании</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis cum delectus deserunt doloribus iste, mollitia odit officia praesentium quos unde vitae? Distinctio, facere iste nam officia quasi similique voluptatem.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque doloribus, incidunt molestias nemo nihil odit perferendis perspiciatis similique ut. Autem nesciunt nihil possimus quos voluptates? Architecto autem dolores pariatur?</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="item_ourProjectWr">
+                    <div class="leftItemOurProject">
+                        <img src="img/iphone-for-gif.png" alt="">
+                        <video muted autoplay="autoplay" loop>
+                            <source src="img/bot-print.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                            <source src="img/bot-print.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                            <source src="img/bot-print.webm" type='video/webm; codecs="vp8, vorbis"'>
+                        </video>
+                    </div>
+                    <div class="rightItemOurProject">
+                        <h2 class="title">VIBER Чат-бот для <br>компании</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium minima quas totam? Beatae error rem sed! Architecto autem, id iste laboriosam libero, nulla numquam reiciendis rem tempora, ullam vitae voluptatum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, aliquid explicabo laboriosam maiores mollitia nesciunt nobis odit, omnis possimus quibusdam ratione sit, unde! Accusamus consectetur earum eos libero quo suscipit.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+<section class="unit_tariff unit big-wr">
+    <div class="wr">
+        <h2 class="title">Тарифы</h2>
+        <div class="tariffWr">
+            <div class="itemTariff">
+                <div class="itemTariffName">
+                    <img src="img/silcer.png" alt=""><span>$ 200 +</span></div>
+                <div class="hoverWr">
+                    <ul>
+                        <li>10 - 25 дней</li>
+                        <li>Стандартный информационный бот для Telegram, Viber, Discord</li>
+                        <li>3 месяца техподдержки</li>
+                        <li>Наполнение бота контентом</li>
+                        <li>Прием заявок</li>
+                        <li>Настройка приема сообщений на email</li>
+                        <li>Подключение и настройка API</li>
+                        <li>Сохранение истории диалога клиента с ботом</li>
+                    </ul>
+                    <a onclick="sendText(this)" data-send="Заказать тариф SILVER"
+                            class="btn btnTariff loadPopup btnTariff" href="#feedback">Заказать бота</a>
+                </div>
+            </div>
+            <div class="itemTariff">
+                <div class="itemTariffName">
+                    <img src="img/gold.png" alt=""><span>$ 200 +</span></div>
+                <div class="hoverWr">
+                    <ul>
+                        <li>10 - 25 дней</li>
+                        <li>Стандартный информационный бот для Telegram, Viber, Discord</li>
+                        <li>3 месяца техподдержки</li>
+                        <li>Наполнение бота контентом</li>
+                        <li>Прием заявок</li>
+                        <li>Настройка приема сообщений на email</li>
+                        <li>Подключение и настройка API</li>
+                        <li>Сохранение истории диалога клиента с ботом</li>
+                    </ul>
+                    <a onclick="sendText(this)" data-send="Заказать тариф GOLD"
+                            class="btn btnTariff loadPopup btnTariff" href="#feedback">Заказать бота</a>
+                </div>
+            </div>
+            <div class="itemTariff">
+                <div class="itemTariffName">
+                    <img src="img/diamond.png" alt=""><span>$ 200 +</span>
+                </div>
+                <div class="hoverWr">
+                    <ul>
+                        <li>10 - 25 дней</li>
+                        <li>Стандартный информационный бот для Telegram, Viber, Discord</li>
+                        <li>3 месяца техподдержки</li>
+                        <li>Наполнение бота контентом</li>
+                        <li>Прием заявок</li>
+                        <li>Настройка приема сообщений на email</li>
+                        <li>Подключение и настройка API</li>
+                        <li>Сохранение истории диалога клиента с ботом</li>
+                    </ul>
+                    <a onclick="sendText(this)" data-send="Заказать тариф DIAMOND"
+                            class="btn btnTariff loadPopup btnTariff" href="#feedback">Заказать бота</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="unit_reviews unit big-wr">
+    <div class="wr">
+        <h2 id="reviews" class="title">Отзывы</h2>
+        <div class="reviewsWr">
+            <div class="reviewsItem">
+                <p class="reviewsItemName">Анна Семенович</p>
+                <p class="reviewsItemProject">чат-бот для магазина</p>
+                <p class="reviewsItemDescript">Чат-боты – это глубокая персонализация и доступность 24/7. Чат-боты подойдут любому бизнесу или некоммерческой организации, где необходима коммуникация</p>
+                <div class="reviewsItemPhoto"><img src="img/photoRewiews1.jpg" alt=""></div>
+            </div>
+            <div class="reviewsItem">
+                <p class="reviewsItemName">Анна Семенович</p>
+                <p class="reviewsItemProject">чат-бот для магазина</p>
+                <p class="reviewsItemDescript">Чат-боты – это глубокая персонализация и доступность 24/7. Чат-боты подойдут любому бизнесу или некоммерческой организации, где необходима коммуникация</p>
+                <div class="reviewsItemPhoto"><img src="img/photoRewiews1.jpg" alt=""></div>
+            </div>
+            <div class="reviewsItem">
+                <p class="reviewsItemName">Анна Семенович</p>
+                <p class="reviewsItemProject">чат-бот для магазина</p>
+                <p class="reviewsItemDescript">Чат-боты – это глубокая персонализация и доступность 24/7. Чат-боты подойдут любому бизнесу или некоммерческой организации, где необходима коммуникация</p>
+                <div class="reviewsItemPhoto"><img src="img/photoRewiews1.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="unit_partners unit big-wr">
+    <div class="wr">
+        <h2 class="title">Партнеры</h2>
+        <div class="sl_partnersWr">
+            <div class="sl_partners">
+                <div class="item_partners">
+                    <div class="item_partnersWr">
+                        <img src="img/partners1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item_partners">
+                    <div class="item_partnersWr">
+                        <img src="img/partners2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item_partners">
+                    <div class="item_partnersWr">
+                        <img src="img/partners3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item_partners">
+                    <div class="item_partnersWr">
+                        <img src="img/partners4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item_partners">
+                    <div class="item_partnersWr">
+                        <img src="img/partners5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="unit_questions big-wr">
+    <div class="wr">
+        <div class="questionsLeft"><img src="img/questions_img.png" alt=""></div>
+        <div class="questionsRight">
+            <h2 class="title">Остались вопросы?</h2>
+            <p class="subTitle">Запишитесь на бесплатную консультацию <br>по чат-ботам прямо сейчас</p>
+            <a onclick="sendText(this)" data-send="Кнопка в блоке получить консультацию" class="btn loadPopup btnTariff"
+                    href="#feedback">Получить консультацию</a>
+        </div>
+    </div>
+</section>
+<footer class="footer big-wr">
+    <div class="wr">
+        <div class="footerWr">
+            <div class="footerItem">
+                <a class="logoFooter" target="_blank" href="#">
+                    <p style="font-size: 32px;font-weight: bold;">logoCompany</p>
+                </a>
+                <p>© 2018 TEST все права защищены | сделано в khyzhniak.github.io</p>
+                <p>Мы в соцсетях:</p>
+                <span>
+                    <a href="#" target="_blank"><img src="img/icon_vk_footer.png" alt=""></a>
+                    <a href="#" target="_blank"><img src="img/icon_inst_footer.png" alt=""></a>
+                    <a href="#" target="_blank"><img src="img/icon_fb_footer.png" alt=""></a>
+                </span>
+            </div>
+            <div class="footerItem footerItemBig">
+                <p class="footerItemTitle">Навигация</p>
+                <div class="link">
+                    <ul>
+                        <li><a href="#bot1">Чат-бот для бизнеса</a></li>
+                        <li><a href="#bot2">Чат-бот для заказа товаров и услуг</a></li>
+                        <li><a href="#bot3">Чат-бот для записи на прием</a></li>
+                        <li><a onclick="shov()" href="#bot4">Чат-бот для бронирования</a></li>
+                        <li><a onclick="shov()" href="#bot5">Чат-бот для рассылок и оповищений</a></li>
+                    </ul>
+                    <ul>
+                        <li><a onclick="shov()" href="#bot6">Чат-бот для службы поддержки</a></li>
+                        <li><a onclick="shov()" href="#bot7">Чат-бот для HR</a></li>
+                        <li><a onclick="shov()" href="#bot8">Чат-бот для опросов</a></li>
+                        <li><a onclick="shov()" href="#bot9">Голосовые боты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerItem ">
+                <p id="contacts" class="footerItemTitle">Контакты</p>
+                <ul>
+                    <li><a href="tel:+380121578477" target="_blank"><i class="fas fa-phone"></i>+38 012 1578 477</a>
+                    </li>
+                    <li><a href="tel:+380121578477" target="_blank"><i class="fas fa-phone"></i>+38 012 1578 477</a>
+                    </li>
+                    <li><a href="tel:+380121578477" target="_blank"><i class="fas fa-phone"></i>+38 012 1578 477</a>
+                    </li>
+                    <li><a href="mailto:email@mail.ru" target="_blank"><i class="fas fa-envelope"></i>email@mail.ru</a>
+                    </li>
+                    <li><a href="https://goo.gl/maps/EJa8HAmR4T32" target="_blank"><i
+                            class="fas fa-map-marker-alt"></i>Київ, вул Киевская 15/17 оф 202</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="formModal modal-content feedback " id="feedback">
+    <form class="formPopup   " method="post" action="../thanks.php">
+        <div class="formPopupWr">
+            <p class="titleFormPopup">Получите бесплатную <br>консультацию</p>
+            <p>Заполните поля чтобы мы могли связаться с Вами</p>
+            <input type="text" required name="nomo" placeholder="Введите Ваше имя">
+            <input type="email" required name="posto" placeholder="Введите e-mail">
+            <input type="text" name="mesago" placeholder="Ваше сообщение (по желанию)">
+            <input type="hidden" id="hiddenInput" name="formo">
+            <div style="display: none;">
+                <input class="InT" placeholder="Ваше имя" type="text" name="name">
+                <input class="InT" placeholder="Ваш емейл" type="email" name="mail">
+                <input class="InT" placeholder="Ваш емейл" type="email" name="email">
+                <input class="InT" placeholder="Ваш телефон" type="text" name="phone">
+                <input class="InT" placeholder="Ваш телефон" type="text" name="tel">
+                <input class="InT" placeholder="Ваш сайт" type="text" name="url">
+            </div>
+            <button class="btn btnTariff" type="submit">Оставить заявку</button>
+            <p class="privat">Нажимаю на кнопку Вы соглашаетесь <a href="#">с политикой сайта</a></p>
+        </div>
+    </form>
+</div>
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
