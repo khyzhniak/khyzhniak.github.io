@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Машинная штукатурка быстро, качественно, экономно</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css"/>
+    <meta property="og:title" content="машинная штукатурка">
+    <meta property="og:site_name" content="fastplaster">
+    <meta property="og:url" content="fastplaster">
+    <meta property="og:description" content="машинная штукатурка">
+    <meta property="og:image" content="img/opengraph.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="машинная штукатурка">
+    <meta name="twitter:description" content="машинная штукатурка">
+    <meta name="twitter:image" content="img/opengraph.jpg">
+    <meta itemprop="image" content="img/opengraph.jpg">
+    <meta name="description" content="машинная штукатурка">
+</head>
+
+<body>
+<div class="unit unit_first">
+    <div class="wr column sb">
+        <header class="header row sb content ">
+            <div class="logo " content><img src="img/logo.svg" alt=""></div>
+            <div class="calBack column center afe ">
+                <span class="mobHide">Звоните Пн-Пт с 9:00 до 18:00</span>
+                <span class="dropdown subPhoneMenu center row ">
+                    <span class="mobShow dropdown-top">
+                    <i class="fas fa-phone "></i>
+                        </span>
+                    <span class="dropdown-top mobHide"><i class="fas fa-phone"></i>+38 095 18 64 755<i
+                            class="fas fa-sort-down"></i></span>
+                </span>
+                <div class="dropdown-inside  ">
+                    <span class="column">
+                        <a href="tel:+380951864755" class="tel"><i class="fas fa-phone"></i> +38 095 18 64 755</a>
+                        <a href="tel:+380951756177" class="tel"><i class="fas fa-phone"></i> +38 095 17 56 177</a>
+                        <a href="tel:+380677411756" class="tel"><i class="fas fa-phone"></i> +38 067 74 11 756</a>
+                     </span>
+                </div>
+            </div>
+        </header>
+        <section class="firstSec column afs">
+            <h1>машинная <span>штукатурка</span></h1>
+            <span class="bottomTitle">быстро, качественно, экономно</span>
+            <span class="addTitle">Штукатурим стены, откосы, потолки</span>
+            <a class="btn" href="index.html">На главную</a>
+            <span class="priceLabel row center ">
+                от <span class="bigText">190</span> грн/кв.м.*
+                <img src="img/icon_sale.png" alt="">
+            </span>
+
+        </section>
+    </div>
+</div>
+<div class="unit unit_copywrite">
+    <div class="wr row center ">
+        <p class="tac">
+            © 2014–2019 fastplaster.pro: все права защищены | сделано в <span class="mels_popup-open"
+                id="mels_popup-open">Mels Industries</span></p>
+    </div>
+    <div class="mels_popup" style="display:none">
+        <div class="mels_popup-container">
+            <div class="mels_popup-close_icon"><i>
+                <svg height="20" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path fill="#111111"
+                            d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z"
+                            class=""></path>
+                </svg>
+            </i></div>
+            <div class="mels_popup-content"></div>
+        </div>
+    </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+    $('.dropdown-top').click(function () {
+        $('.dropdown-inside').animate({opacity: 'toggle', height: 'toggle'}, 1000);
+    });
+    $(document).on('click', function (e) {
+        if (!$(e.target).closest(".dropdown").length) {
+            $('.dropdown-inside').hide();
+        }
+        e.stopPropagation();
+    });
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+.imgKoordinator {
+  width: 150px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  margin: 40px auto auto; }
+
+.title ~ .imgKoordinator {
+  margin-top: 0; }
+
+.infoKoordinator {
+  line-height: 160%;
+  color: #888888; }
+  .infoKoordinator a {
+    color: inherit; }
+
+.tooltipMap {
+  stroke: #000000;
+  font-size: 16px; }
+
+.map {
+  position: relative; }
+
+.svg {
+  width: 100%; }
+
+.tooltip {
+  padding: 20px;
+  display: none;
+  width: 200px;
+  height: auto;
+  max-height: 133px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.85);
+  -webkit-box-shadow: 0px 4px 4px rgba(45, 94, 131, 0.25);
+          box-shadow: 0px 4px 4px rgba(45, 94, 131, 0.25);
+  -webkit-border-radius: 35px 35px 35px 0px;
+          border-radius: 35px 35px 35px 0px; }
+
+.tooltip_title {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  color: #234F77; }
+
+.tooltip_text, .tooltip_tel {
+  font-size: 14px;
+  line-height: 160%;
+  color: #333; }
+
+.showedTT.tooltip {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.svg path {
+  cursor: pointer; }
+
+.svg path.showedTT {
+  fill: #E4C280; }
+
+.strPartnersWr {
+  margin-top: 60px;
+  width: 16.6%; }
+
+.strPartners {
+  width: auto; }
+
+.sl_promout_contrWr {
+  width: 100%; }
+
+.itemSlPromout div {
+  width: 80%;
+  margin: 0 auto; }
+
+.unit_screenAdd .wr {
+  position: relative; }
+
+.sl_promout_contr {
+  position: absolute;
+  bottom: 50%;
+  cursor: pointer; }
+
+.sl_promout_prev {
+  left: 0;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.sl_promout_next {
+  right: 0; }
+
+@media (max-width: 962px) {
+  .itemSlPromout {
+    margin-top: 60px; } }
+
+@media (max-width: 768px) {
+  .svg {
+    height: 300px; }
+  .form {
+    width: 100%;
+    margin-bottom: 60px; }
+  .strPartnersCont {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .strPartnersWr {
+    width: 33%;
+    margin-top: 0;
+    margin-bottom: 30px; }
+  .strPartners {
+    width: 80%; }
+  .unit_screenAdd .title {
+    font-size: 24px;
+    margin-top: 60px; }
+  .forFreeInfo {
+    width: 100%; } }
+
+@media (max-width: 560px) {
+  .system_img {
+    margin-top: 50px; } }

@@ -1,0 +1,104 @@
+.img_chema {
+  width: 80%;
+  display: block;
+  margin: 0 auto; }
+
+.itemProductRemoteSystems {
+  width: 90.42735%;
+  margin: 0 auto; }
+  .itemProductRemoteSystems .title {
+    width: 100%;
+    margin-bottom: 20px; }
+  .itemProductRemoteSystems div:nth-child(2) {
+    width: 74%; }
+  .itemProductRemoteSystems:not(:last-child) {
+    margin-bottom: 60px; }
+
+.wrImg {
+  width: 24%;
+  margin-right: 70px; }
+  .wrImg img {
+    width: auto; }
+
+.unit_tth .product {
+  width: 48%; }
+
+.mapCorverage {
+  width: 48.11966%;
+  margin: 0 auto;
+  display: block; }
+
+.itemNewsImg img {
+  width: auto; }
+
+.unit_form__white .title {
+  margin-bottom: 0; }
+
+@media (max-width: 962px) {
+  .productEng {
+    margin-bottom: 0; }
+  .wrImg {
+    width: 20%;
+    margin-right: 0; }
+    .wrImg img {
+      width: 100%; }
+  .itemProductRemoteSystems {
+    width: 100%; }
+    .itemProductRemoteSystems ul {
+      margin-bottom: 0; }
+    .itemProductRemoteSystems div:nth-child(2) {
+      width: 75%; }
+  .itemProductRemoteSystems:not(:last-child) {
+    margin-bottom: 0; }
+  .itemProductRemoteSystems .title {
+    margin-top: 10px; }
+  .unit_tth .title {
+    margin-top: 0; }
+  .unit_tth .product_showed {
+    margin-bottom: 0; }
+  .unit_tth .wr_unit {
+    margin-bottom: 0; }
+  .itemNewsImg {
+    width: 30%; }
+    .itemNewsImg img {
+      width: 100%; }
+  .itemNewsBody {
+    width: 65%; } }
+
+@media (max-width: 768px) {
+  .img_chema {
+    width: 100%; }
+  .itemProductRemoteSystems {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column; }
+  .wrImg {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto; }
+  .itemProductRemoteSystems div:nth-child(2) {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%; }
+  .itemProductRemoteSystems .title {
+    text-align: center; }
+  .productWr {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column; }
+  .unit_tth .product {
+    width: 100%; }
+  .mapCorverage {
+    width: 80%; }
+  .itemNews {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-flow: column-reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse; } }
