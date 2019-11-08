@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".modalbox").fancybox();$("#f_contact").submit(function(){return false;});$("#f_send").on("click",function(){$("#f_contact").fadeOut("fast",function(){$(this).before("<p><strong>Ваше сообщение отправлено!</strong></p>");setTimeout("$.fancybox.close()",1000);});});});
