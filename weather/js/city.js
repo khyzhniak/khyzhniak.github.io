@@ -1,6 +1,6 @@
 // Получаем json
 $.ajax({
-  url: 'https://api.ipstack.com/check?access_key=2dafc6b88a6d891cc05873955400654c&format=1',
+  url: 'http://api.ipstack.com/check?access_key=2dafc6b88a6d891cc05873955400654c&format=1',
   success: getDataIp
 });
 

@@ -11,7 +11,7 @@ function getDataWeather(data) {
   nameCity.innerText = data.name
   description.innerText = data.weather[0].description
   let iconcode = data.weather[0].icon
-  var iconurl = "https://openweathermap.org/img/w/" + iconcode + ".png";
+  var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
   $('#wicon').attr('src', iconurl);
   windSpeed.innerText = data.wind.speed
   windDeg.innerText = data.wind.deg
@@ -29,7 +29,7 @@ function getDataWeather(data) {
 // Получаем json с прогнозом
 function gettingJSON(city) {
   $.ajax({
-      url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${API}&lang=ru&units=metric`,
+      url: `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${API}&lang=ru&units=metric`,
       success: getDataWeather
     }
   );
