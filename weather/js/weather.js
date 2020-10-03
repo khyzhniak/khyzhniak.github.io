@@ -11,7 +11,7 @@ function getDataWeather(data) {
   nameCity.innerText = data.name
   description.innerText = data.weather[0].description
   let iconcode = data.weather[0].icon
-  var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
+  var iconurl = "https://openweathermap.org/img/w/" + iconcode + ".png";
   $('#wicon').attr('src', iconurl);
   windSpeed.innerText = data.wind.speed
   windDeg.innerText = data.wind.deg
