@@ -29,7 +29,7 @@ function getDataWeather(data) {
 // Получаем json с прогнозом
 function gettingJSON(city) {
   $.ajax({
-      url: `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${API}&lang=ru&units=metric`,
+      url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${API}&lang=ru&units=metric`,
       success: getDataWeather
     }
   );
