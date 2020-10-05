@@ -40,7 +40,8 @@
 
     // Function for formatting number
     var re_thouSep = new RegExp(/^(-?[0-9]+)([0-9]{3})/)
-    function format (num, dp) {
+
+    function format(num, dp) {
       num = num.toFixed(dp) // converts to string!
 
       // Non "." decimal point

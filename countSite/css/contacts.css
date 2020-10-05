@@ -1,18 +1,23 @@
 .itemAdrSopMap_contact {
-  width: 100%; }
+    width: 100%;
+}
 
 .itemAdrShop_contact iframe {
-  width: 58%; }
+    width: 58%;
+}
 
 .img_shops_contact {
-  position: unset;
-  width: auto; }
+    position: unset;
+    width: auto;
+}
 
 .itemAdrShopBody_contact {
-  margin-top: 30px;
-  width: 100%; }
+    margin-top: 30px;
+    width: 100%;
+}
 
 .adrIconWr_contact {
-  padding-right: 60px;
-  width: 30%;
-  margin-bottom: 40px; }
+    padding-right: 60px;
+    width: 30%;
+    margin-bottom: 40px;
+}

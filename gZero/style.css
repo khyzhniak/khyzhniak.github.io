@@ -111,7 +111,7 @@
 #close:before, #close:after {
     position: absolute;
     left: 15px;
-    content: ' ';
+    content: " ";
     height: 33px;
     width: 2px;
     background-color: #333;
@@ -122,22 +122,20 @@
     0% {
         transform: rotate(-45deg)
     }
+}
 
-}@keyframes traff {
+@keyframes traff {
     0% {
         transform: rotate(45deg)
     }
-
 }
 
 #close:before {
     transform: rotate(45deg);
     animation: traffic 2s forwards;
-
 }
 
 #close:after {
     transform: rotate(-45deg);
     animation: traff 2s forwards;
-
 }
