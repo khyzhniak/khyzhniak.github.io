@@ -423,10 +423,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @import url("https://fonts.googleapis.com/css?family=Raleway");
-body {
-    background-color: #f1dabf;
-    font-family: "Raleway", sans-serif;
-}
+
 
 .socialIcons {
     list-style-type: none;
@@ -447,7 +444,7 @@ body {
     height: 100px;
     width: 100px;
     line-height: 100px;
-    color: #f1dabf;
+    color: #fff;
     transition: all ease 0.5s;
     text-shadow: 0px 0px 1px black, 0px 0px 1px black;
     transform: rotateX(-30deg);
