@@ -82,10 +82,10 @@ function contentCase(when) {
     anim(par2_3, arr[i]['text4'][1], 100);
     anim(par2_4, arr[i]['text5'][1], 100);
     par3.setAttribute('href', arr[i]['href']);
-    var src1 = "../img/" + arr[i]['src'] + ".mp4";
-    var src2 = "../img/" + arr[i]['src'] + ".ogv";
-    var src3 = "../img/" + arr[i]['src'] + ".webm";
-    var src4 = "../img/" + arr[i]['src'] + ".jpg";
+    var src1 = "../lendingSmm/img/" + arr[i]['src'] + ".mp4";
+    var src2 = "../lendingSmm/img/" + arr[i]['src'] + ".ogv";
+    var src3 = "../lendingSmm/img/" + arr[i]['src'] + ".webm";
+    var src4 = "../lendingSmm/img/" + arr[i]['src'] + ".jpg";
     par4_1.setAttribute('src', src1);
     par4_2.setAttribute('src', src2);
     par4_3.setAttribute('src', src3);
