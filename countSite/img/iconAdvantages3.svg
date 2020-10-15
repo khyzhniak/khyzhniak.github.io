@@ -1,19 +1,20 @@
 <svg width="59" height="60" viewBox="0 0 59 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<path d="M10.5695 22.5821H47.8523V60H58.3398V13.9684L28.3804 0L0.0820312 13.9684V60H10.5695V22.5821Z" fill="#E4C280"/>
-<path d="M28.381 52.7026H21.7656V58.5637H28.381V52.7026Z" fill="white"/>
-<path d="M36.5002 52.7026H29.8848V58.5637H36.5002V52.7026Z" fill="white"/>
-<path d="M20.2619 52.7026H13.6465V58.5637H20.2619V52.7026Z" fill="white"/>
-<path d="M28.381 44.6631H21.7656V50.5241H28.381V44.6631Z" fill="white"/>
-<path d="M20.2619 44.6631H13.6465V50.5241H20.2619V44.6631Z" fill="white"/>
-<path d="M36.5002 44.6631H29.8848V50.5241H36.5002V44.6631Z" fill="white"/>
-<path d="M28.381 36.625H21.7656V42.4861H28.381V36.625Z" fill="white"/>
-<path d="M20.2619 36.625H13.6465V42.4861H20.2619V36.625Z" fill="white"/>
-<path d="M44.6173 52.7026H38.002V58.5637H44.6173V52.7026Z" fill="white"/>
-</g>
-<defs>
-<clipPath id="clip0">
-<rect width="58.4211" height="60" fill="white"/>
-</clipPath>
-</defs>
+    <g clip-path="url(#clip0)">
+        <path d="M10.5695 22.5821H47.8523V60H58.3398V13.9684L28.3804 0L0.0820312 13.9684V60H10.5695V22.5821Z"
+              fill="#E4C280"/>
+        <path d="M28.381 52.7026H21.7656V58.5637H28.381V52.7026Z" fill="white"/>
+        <path d="M36.5002 52.7026H29.8848V58.5637H36.5002V52.7026Z" fill="white"/>
+        <path d="M20.2619 52.7026H13.6465V58.5637H20.2619V52.7026Z" fill="white"/>
+        <path d="M28.381 44.6631H21.7656V50.5241H28.381V44.6631Z" fill="white"/>
+        <path d="M20.2619 44.6631H13.6465V50.5241H20.2619V44.6631Z" fill="white"/>
+        <path d="M36.5002 44.6631H29.8848V50.5241H36.5002V44.6631Z" fill="white"/>
+        <path d="M28.381 36.625H21.7656V42.4861H28.381V36.625Z" fill="white"/>
+        <path d="M20.2619 36.625H13.6465V42.4861H20.2619V36.625Z" fill="white"/>
+        <path d="M44.6173 52.7026H38.002V58.5637H44.6173V52.7026Z" fill="white"/>
+    </g>
+    <defs>
+        <clipPath id="clip0">
+            <rect width="58.4211" height="60" fill="white"/>
+        </clipPath>
+    </defs>
 </svg>

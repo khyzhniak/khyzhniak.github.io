@@ -1,82 +1,105 @@
 .unit_verification {
-  background-image: url("../img/bgFirstMetrolog.jpg");
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-          background-size: cover;
-  background-position: center; }
+    background-image: url("../img/bgFirstMetrolog.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
 
 .infoVerification {
-  font-size: 21.6px;
-  line-height: 140%;
-  text-align: center;
-  color: #FFFFFF;
-  margin-top: 20px;
-  margin-bottom: 30px; }
+    font-size: 21.6px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
 .regulStandartUl li {
-  list-style-type: decimal;
-  font-weight: bold;
-  font-size: 31px;
-  color: #2D5E83;
-  line-height: 1;
-  margin-bottom: 26px; }
-  .regulStandartUl li span {
+    list-style-type: decimal;
+    font-weight: bold;
+    font-size: 31px;
+    color: #2D5E83;
+    line-height: 1;
+    margin-bottom: 26px;
+}
+
+.regulStandartUl li span {
     display: block;
     font-size: 16px;
     font-weight: normal;
     line-height: 1.6;
     margin-top: -5px;
-    color: #888888; }
+    color: #888888;
+}
 
 .regulImg {
-  width: 48%; }
+    width: 48%;
+}
 
 .regulStandart {
-  width: 48%; }
+    width: 48%;
+}
 
 .form_short {
-  width: 48%;
-  margin-top: 0; }
+    width: 48%;
+    margin-top: 0;
+}
 
 .imgFormMetr {
-  width: 48%; }
+    width: 48%;
+}
 
 @media (max-width: 962px) {
-  .wr_screenAdd {
-    margin-top: 0; }
-  .wr_unit__form_short {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: column;
+    .wr_screenAdd {
+        margin-top: 0;
+    }
+    .wr_unit__form_short {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column;
         -ms-flex-flow: column;
-            flex-flow: column; }
+        flex-flow: column;
+    }
     .wr_unit__form_short .form_short {
-      width: 100%;
-      margin-bottom: 20px; }
+        width: 100%;
+        margin-bottom: 20px;
+    }
     .wr_unit__form_short .title {
-      text-align: center; }
+        text-align: center;
+    }
     .wr_unit__form_short .privacyPolicy {
-      display: contents; } }
+        display: contents;
+    }
+}
 
 @media (max-width: 768px) {
-  .infoVerification {
-    font-size: 16px;
-    margin-top: 0; }
-  .unit_rules .wr {
-    margin-bottom: 0; }
+    .infoVerification {
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .unit_rules .wr {
+        margin-bottom: 0;
+    }
     .unit_rules .wr .row {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -webkit-flex-flow: column;
-          -ms-flex-flow: column;
-              flex-flow: column; }
-  .regulImg {
-    width: 100%; }
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+    .regulImg {
+        width: 100%;
+    }
     .regulImg img {
-      width: 50%;
-      margin-left: auto;
-      margin-right: auto; }
-  .imgFormMetr {
-    display: none; }
-  .regulStandart {
-    width: 100%; } }
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imgFormMetr {
+        display: none;
+    }
+    .regulStandart {
+        width: 100%;
+    }
+}

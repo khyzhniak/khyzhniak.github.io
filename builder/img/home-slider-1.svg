@@ -1,9 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
-  <defs>
-    <radialGradient id="radial-gradient" cx="0.491" cy="0.5" r="0.905" gradientTransform="translate(0.215 0.216) scale(0.563 0.568)" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#0f3e6b"/>
-      <stop offset="1" stop-color="#051727"/>
-    </radialGradient>
-  </defs>
-  <rect id="home-slider-2-about-1920x1080" width="1920" height="1080" fill="url(#radial-gradient)"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080"
+     viewBox="0 0 1920 1080">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0.491" cy="0.5" r="0.905"
+                        gradientTransform="translate(0.215 0.216) scale(0.563 0.568)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#0f3e6b"/>
+            <stop offset="1" stop-color="#051727"/>
+        </radialGradient>
+    </defs>
+    <rect id="home-slider-2-about-1920x1080" width="1920" height="1080" fill="url(#radial-gradient)"/>
 </svg>

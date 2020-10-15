@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="86" height="19"><defs><linearGradient id="a" x1="0%" y1="0%" y2="0%"><stop offset="0%" stop-color="#537F9D"/><stop offset="100%" stop-color="#1FC8CE"/></linearGradient></defs><text font-family="Myriad Pro" transform="translate(.457 19.08) scale(1.12706)" font-size="23.069"><tspan font-family="Neo Sans Pro" font-weight="bold" fill="#333">Silver</tspan></text><text font-family="Myriad Pro" fill="url(#a)" transform="translate(.457 19.08) scale(1.12706)" font-size="23.069"><tspan font-family="Neo Sans Pro" font-weight="bold" fill="#333">Silver</tspan></text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="86" height="19">
+    <defs>
+        <linearGradient id="a" x1="0%" y1="0%" y2="0%">
+            <stop offset="0%" stop-color="#537F9D"/>
+            <stop offset="100%" stop-color="#1FC8CE"/>
+        </linearGradient>
+    </defs>
+    <text font-family="Myriad Pro" transform="translate(.457 19.08) scale(1.12706)" font-size="23.069">
+        <tspan font-family="Neo Sans Pro" font-weight="bold" fill="#333">Silver</tspan>
+    </text>
+    <text font-family="Myriad Pro" fill="url(#a)" transform="translate(.457 19.08) scale(1.12706)" font-size="23.069">
+        <tspan font-family="Neo Sans Pro" font-weight="bold" fill="#333">Silver</tspan>
+    </text>
+</svg>

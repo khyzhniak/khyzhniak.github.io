@@ -1,40 +1,57 @@
 .photo_awards {
-  width: 90%; }
+    width: 90%;
+}
 
 .wr_aboutItems {
-  margin-bottom: -50px; }
+    margin-bottom: -50px;
+}
 
 .aboutItem {
-  width: 30%;
-  margin-bottom: 50px; }
-  .aboutItem b {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.aboutItem b {
     font-weight: 500;
     font-size: 18px;
     line-height: 130%;
     color: #111111;
-    text-align: center; }
-  .aboutItem p {
-    margin-bottom: 0; }
-  .aboutItem:nth-child(4), .aboutItem:nth-child(5), .aboutItem:nth-child(6) {
-    margin-bottom: 0; }
+    text-align: center;
+}
+
+.aboutItem p {
+    margin-bottom: 0;
+}
+
+.aboutItem:nth-child(4), .aboutItem:nth-child(5), .aboutItem:nth-child(6) {
+    margin-bottom: 0;
+}
 
 .wrAboutImg {
-  width: 100px;
-  height: 100px;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
-  border: 1px solid rgba(228, 194, 128, 0.5);
-  margin-bottom: 20px; }
-  .wrAboutImg img {
-    width: 60px; }
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid rgba(228, 194, 128, 0.5);
+    margin-bottom: 20px;
+}
+
+.wrAboutImg img {
+    width: 60px;
+}
 
 .unit_vacancy {
-  background-image: url("../img/bg_vacancy.jpg");
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-          background-size: cover;
-  background-position: center; }
-  .unit_vacancy .title {
-    margin-bottom: 10px; }
-  .unit_vacancy .link {
-    margin-bottom: 70px; }
+    background-image: url("../img/bg_vacancy.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.unit_vacancy .title {
+    margin-bottom: 10px;
+}
+
+.unit_vacancy .link {
+    margin-bottom: 70px;
+}

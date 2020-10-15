@@ -1,7 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="15.217" height="21.008" viewBox="0 0 15.217 21.008">
-  <g id="maps-and-flags" transform="translate(-70.573)">
-    <g id="Group_19" data-name="Group 19" transform="translate(70.573)">
-      <path id="Path_52" data-name="Path 52" d="M78.181,0a7.617,7.617,0,0,0-7.608,7.608c0,5.206,6.809,12.85,7.1,13.172a.685.685,0,0,0,1.019,0c.29-.323,7.1-7.966,7.1-13.172A7.617,7.617,0,0,0,78.181,0Zm0,11.436a3.828,3.828,0,1,1,3.828-3.828A3.832,3.832,0,0,1,78.181,11.436Z" transform="translate(-70.573)" fill="#a3611d"/>
+    <g id="maps-and-flags" transform="translate(-70.573)">
+        <g id="Group_19" data-name="Group 19" transform="translate(70.573)">
+            <path id="Path_52" data-name="Path 52"
+                  d="M78.181,0a7.617,7.617,0,0,0-7.608,7.608c0,5.206,6.809,12.85,7.1,13.172a.685.685,0,0,0,1.019,0c.29-.323,7.1-7.966,7.1-13.172A7.617,7.617,0,0,0,78.181,0Zm0,11.436a3.828,3.828,0,1,1,3.828-3.828A3.832,3.832,0,0,1,78.181,11.436Z"
+                  transform="translate(-70.573)" fill="#a3611d"/>
+        </g>
     </g>
-  </g>
 </svg>

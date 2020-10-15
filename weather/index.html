@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+<div class="wrapp-wheather">
+  <input id="city" placeholder="Ваш город" type="text">
+  <button id="getIt">Получит прогноз</button>
+  <div id="weather"></div>
+  <div>
+    <div>
+      <span>Ваш город: </span>
+      <span id="nameCity"></span>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>Погода: </span>
+      <span id="description"></span>
+      <span><img id="wicon" src="" alt=""></span>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>Скорость ветра: </span>
+      <span id="windSpeed"></span>
+    </div>
+    <div>
+      <span>Направление ветра: </span>
+      <span id="windDeg"></span>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>Температура: </span>
+      <span id="temp"></span>
+      <span></span>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>Ощущается: </span>
+      <span id="feels_like"></span>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>Темп мин: </span>
+      <span id="temp_min"></span>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>Темп макс: </span>
+      <span id="temp_max"></span>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>Давление: </span>
+      <span id="pressure"></span>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>Влажность: </span>
+      <span id="humidity"></span>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>Рассвет: </span>
+      <span id="sunrise"></span>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>Закат: </span>
+      <span id="sunset"></span>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>Видимость: </span>
+      <span id="visibility"></span>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="./js/city.js"></script>
+<script src="./js/weather.js"></script>
+</body>
+</html>
